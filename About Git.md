@@ -57,6 +57,6 @@ tag可以被checkout指向（HEAD指针被切换到tag这边)
 观察到git命令的对象写法一般是：
 先写受体 再写配体 比如把HEAD的东西移到side那边 我们就写`git AAAAAA side HEAD`
 
-CHECK123456789
+
 
 #### ``
