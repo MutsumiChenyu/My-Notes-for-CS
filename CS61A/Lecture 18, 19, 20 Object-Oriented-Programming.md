@@ -76,3 +76,6 @@ B().f()   # "AB"
 可以发现，虽然这里的f在AB中都有提到，但是super关键词允许找到A的这个f
 **语法**
 `super().func_name(arguments)`
+
+#### 与继承相对--Composition组合
+
