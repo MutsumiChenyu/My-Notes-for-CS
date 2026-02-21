@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About Git.md",
+                "file": "CS61A/Lecture 18, 19, 20 Object-Oriented-Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About Git"
+              "title": "Lecture 18, 19, 20 Object-Oriented-Programming"
             }
           }
         ]
@@ -216,8 +216,9 @@
   },
   "active": "209c0769e48a6904",
   "lastOpenFiles": [
+    "About Git.md",
     "README.md",
-    "CS61A/Lecture 18, 19 Object-Oriented-Programming.md",
+    "CS61A/Lecture 18, 19, 20 Object-Oriented-Programming.md",
     "C与CPP.md",
     "CS61A/Lecture 12 Containers 容器.md",
     "CS61A/Lecture 13/Lecture 13 Data Abstraction.md",
@@ -235,7 +236,6 @@
     "CS61A/Lecture 14 Tree/Pasted image 20260130222059.png",
     "CS61A/Lecture 8 Recitation/Lecture 8 Recitation 嵌套函数分析.md",
     "LeetCode代码/961.  重复数字 N-Repeated Element in Size 2N Array.md",
-    "About Git.md",
     "未命名.base",
     "CS61A/Lecture 9 装饰器和递归/Lecture 9 Decorator装饰器 & Recursion递归.md",
     "CS61A/Lecture 15 Mutability",

@@ -36,7 +36,7 @@ Account.backup = []
 #这个就是在这个类下都添加了这个attribute了 依旧是global frame的存在周期 所有实例都可以调用
 ```
 
-#### Subclasses 子类
+#### Subclasses 子类 与 Inheritance 继承
 子类是一种更具体的类，子类继承父类的所有属性同时拥有自己的特殊属性
 比如，这里的A是父类，B是子类：
 ```python
@@ -45,6 +45,7 @@ class A:
         return 1
 
 class B(A):
+# class <name>(<base class>):
     pass
 
 b = B()
