@@ -48,21 +48,9 @@
               "icon": "lucide-file",
               "title": "Lecture 21 Compromise"
             }
-          },
-          {
-            "id": "1772e4d57ed76407",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.4"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -255,7 +243,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1772e4d57ed76407",
+  "active": "48c3db079b9d4fb3",
   "lastOpenFiles": [
     "CS61A/Lecture 21 字符串表示， 通信接口.md",
     "CS61A/Lecture 18, 19, 20 Object-Oriented-Programming.md",
