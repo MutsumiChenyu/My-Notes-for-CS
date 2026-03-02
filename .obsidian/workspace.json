@@ -39,14 +39,10 @@
             "id": "48c3db079b9d4fb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture 21 Compromise.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lecture 21 Compromise"
+              "title": "新标签页"
             }
           }
         ],
@@ -245,9 +241,10 @@
   },
   "active": "48c3db079b9d4fb3",
   "lastOpenFiles": [
+    "Lecture 21 Compromise.md",
+    "第1-2节-绪论-考试要点.md",
     "CS61A/Lecture 21 字符串表示， 通信接口.md",
     "CS61A/Lecture 18, 19, 20 Object-Oriented-Programming.md",
-    "Lecture 21 Compromise.md",
     "Pasted image 20260225232837.png",
     "About Git.md",
     "README.md",
