@@ -8,6 +8,3 @@ Order of Growth
 
 空间复杂度--用于测度一个算法在Active Environment中存在时最多共存的frame数
 用树来举例，就是树的所有分支的最长分支认为是这棵树的空间复杂度--符合DFS算法
-
-模块化设计--Isolate Concerns
-孤立各个模块互不干扰
