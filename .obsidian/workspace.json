@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61A/Lecture 25 链表环境图，内置函数处理.md",
+                "file": "CS61A/Lecture 28 Scheme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 25 链表环境图，内置函数处理"
+              "title": "Lecture 28 Scheme"
             }
           }
         ],
@@ -271,7 +271,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa47a50974195502",
+  "active": "21b22c3d398cc4f3",
   "lastOpenFiles": [
     "CS61A/Lecture 25 链表环境图，内置函数处理.md",
     "CS61A/Lecture 28 Scheme.md",
