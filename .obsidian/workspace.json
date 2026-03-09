@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61A/Lecture 30 编程语言与解释器设计.md",
+                "file": "CS50x/Lecture 4 Memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 30 编程语言与解释器设计"
+              "title": "Lecture 4 Memory"
             }
           }
         ],
@@ -231,8 +231,9 @@
   },
   "active": "2052253ed89a59a0",
   "lastOpenFiles": [
-    "CS61A/Lecture 28 29 Scheme & Scheme List.md",
+    "CS61A/Lecture 12 Containers 容器.md",
     "CS61A/Lecture 30 编程语言与解释器设计.md",
+    "CS61A/Lecture 28 29 Scheme & Scheme List.md",
     "LeetCode代码/961.  重复数字 N-Repeated Element in Size 2N Array.md",
     "LeetCode代码/1390. 四因数.md",
     "LeetCode代码/66. 数组化数字加1.md",
@@ -246,7 +247,6 @@
     "CS61A/Lecture 23 Efficiency 效率与复杂度.md",
     "CS61A/Lecture 21 字符串表示， 通信接口.md",
     "CS61A/Lecture 24 解耦与模块化设计.md",
-    "CS61A/Lecture 12 Containers 容器.md",
     "CS61A/Lecture 10 Tree Recursion 树递归.md",
     "CS61A/Lecture 6 Sounds.md",
     "CS61A/Lecture 11 Sequences.md",
