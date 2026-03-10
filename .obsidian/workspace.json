@@ -207,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e064bd8a5c786166",
+  "active": "aa47a50974195502",
   "lastOpenFiles": [
     "Useful Tools",
     "CS61B",
@@ -246,7 +247,7 @@
     "LeetCode/66. 数组化数字加1.md",
     "LeetCode/Binary Tree.md",
     "LeetCode/1161. 最大层内元素和.md",
-    "C与CPP.md",
+    "Useful Tools/C与CPP.md",
     "Math for AI.md",
     "README.md",
     "CS61A 學習終了/Lecture 23 Efficiency 效率与复杂度.md",
