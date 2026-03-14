@@ -35,4 +35,7 @@ Dog写dog方法 launcher启动dog（有主方法）
 static---静态，在类下所有实例共享 不能通过实例来修改
 non-static---实例的单独属性， 不共享 （\_\_init\_\_)
 
-#### Debugging
+#### Debugging调试工具使用
+
+断点-跳过-步入
+可以在调试器中写代码行让调试器判断
