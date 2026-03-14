@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2703c3cee406d374",
@@ -231,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0a0906b1e431d0b",
+  "active": "aa47a50974195502",
   "lastOpenFiles": [
     "CS61B/lec1 Java.md",
     "CS61B/lec2 Java class.md",
