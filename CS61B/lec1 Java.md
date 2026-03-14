@@ -46,16 +46,30 @@ OOP in Java
 public class Car{
 	
 	String model;
-	int wheels;
+	int wheels; //必须先定义实例变量类型
 	
 	public Car(String m){
 		this.model = m;
-		int this.wheel = 4;
+		this.wheel = 4;//this == self in python
+	}
+	
+	public void drive(){
+		if (this.wheel < 4){
+		......
+		}
+	}//java的每一个函数必须有一个返回值 否则必须声明void来确保无东西返回出来
+	
+	public int wheels(){
+		return this.wheels;
 	}
 	
 	public static void main(String[] args){
-	
+	c1 = Car("First");
+	c2 = Car("Second")
+	c1.drive();
+	c1.wheels();
+	System.out.printIn(c2.wheels);
 	}
-
 }
 ```
+java种类的定义往往不需要写this 直接写model wheels也行
