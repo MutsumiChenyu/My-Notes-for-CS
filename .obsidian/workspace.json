@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lec3 List 1.md",
+                "file": "CS61B/lec3 List 1.md",
                 "mode": "source",
                 "source": false
               },
@@ -248,7 +248,7 @@
   "active": "c0a56fe1425a5e11",
   "lastOpenFiles": [
     "CS61B/lec2 Java class.md",
-    "lec3 List 1.md",
+    "CS61B/lec3 List 1.md",
     "CS61B/lec1 Java.md",
     "CS61A Finished/Final Lecture 31 解释器.md",
     "Useful Tools",
