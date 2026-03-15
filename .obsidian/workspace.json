@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61B/lec3 List 1.md",
+                "file": "CS61B/lec3, 4, 5, 6  List 1 2 3 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lec3 List 1"
+              "title": "lec3, 4, 5, 6  List 1 2 3 4"
             }
           }
         ],
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2703c3cee406d374",
@@ -248,7 +247,7 @@
   "active": "c0a56fe1425a5e11",
   "lastOpenFiles": [
     "CS61B/lec2 Java class.md",
-    "CS61B/lec3 List 1.md",
+    "CS61B/lec3, 4, 5, 6  List 1 2 3 4.md",
     "CS61B/lec1 Java.md",
     "CS61A Finished/Final Lecture 31 解释器.md",
     "Useful Tools",
