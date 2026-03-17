@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,6 +247,7 @@
   },
   "active": "c0a56fe1425a5e11",
   "lastOpenFiles": [
+    "Pasted image 20260317172202.png",
     "CS61B/lec2 Java class.md",
     "CS61B/lec3, 4, 5, 6  List 1 2 3 4.md",
     "CS61B/lec1 Java.md",
@@ -273,7 +275,6 @@
     "CS61A Finished/Lecture 10 Tree Recursion 树递归.md",
     "CS61A Finished/Lecture 6 Sounds.md",
     "CS61A Finished/Lecture 11 Sequences.md",
-    "CS61A Finished/Lecture 18, 19, 20 Object-Oriented-Programming.md",
     "CS61A/Pasted image 20260302170445.png",
     "CS61A Finished/Lecture 22 Compromise",
     "CS61A Finished/Lecture 22 Compromise/Pasted image 20260225232837.png",
