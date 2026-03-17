@@ -143,6 +143,34 @@ DLList<Integer> d1 = new DLList<Integer>(5);
 DLList<Integer> d1 = new DLList<>(5);
 ```
 
+#### Array in Java
+Java的数组创建语法
+```java
+x = new int[3];
+y = new int[]{1, 2, 3, 4, 5};
+int[] z = {9, 10, 11, 12, 13};
+```
+第一个是声明一个长度固定3的数组
+第二个是声明固定内容的数组
+第三个是第二个的另一种写法
 
+##### Methods in Array of Java
+```java
+int[] z = null;
+int[] x, y;
 
+x = new int[]{1, 2, 3, 4, 5};
+y = x;
+x = new int[]{-1, 2, 5, 4, 99};
+y = new int[3];
+z = new int[0];
+int xL = x.length;
+
+String[] s = new String[6];
+s[4] = "ketchup";
+s[x[3] - x[1]] = "muffins";
+
+int[] b = {9, 10, 11};
+System.arraycopy(b, 0, x, 3, 2);
+```
 
