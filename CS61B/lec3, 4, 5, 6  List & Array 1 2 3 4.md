@@ -164,13 +164,41 @@ y = x;
 x = new int[]{-1, 2, 5, 4, 99};
 y = new int[3];
 z = new int[0];
+/*length can be reached in array*/
 int xL = x.length;
 
+/*Array can contain any types of elements*/
 String[] s = new String[6];
+//如果要储存字符串 要用String[]这样的声明来声明变量种类
 s[4] = "ketchup";
 s[x[3] - x[1]] = "muffins";
 
 int[] b = {9, 10, 11};
 System.arraycopy(b, 0, x, 3, 2);
 ```
+```java
+System.arraycopy(b, 0, x, 3, 2);
+//这句语句的具体解析：
+/*(第1个Array, 第1个Array的起始index, 第2个Array, 第2个Array的起始index, 复制长度)*/
+```
 
+##### 2D Array in Java
+在Java中声明二位数组的写法
+```java
+int[][] pascalsTriangle = new int[4][];
+/**
+int[] rowZero = pascalsTriangle[0];
+
+pascalsTriangle[0] = new int[]{1};
+pascalsTriangle[1] = new int[]{1, 1};
+pascalsTriangle[2] = new int[]{1, 2, 1};
+pascalsTriangle[3] = new int[]{1, 3, 3, 1};
+int[] rowTwo = pascalsTriangle[2];
+rowTwo[1] = -5;
+
+int[][] matrix;
+matrix = new int[4][];
+matrix = new int[4][4];
+
+int[][] pascalAgain = new int[][]{{1}, {1, 1},{1, 2, 1}, {1, 3, 3, 1}};
+```
