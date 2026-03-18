@@ -180,13 +180,14 @@ System.arraycopy(b, 0, x, 3, 2);
 System.arraycopy(b, 0, x, 3, 2);
 //这句语句的具体解析：
 /*(第1个Array, 第1个Array的起始index, 第2个Array, 第2个Array的起始index, 复制长度)*/
+/*具体操作时把第一个Array所需要的那部分数据复制到第二个Array处*/
 ```
 
 ##### 2D Array in Java
 在Java中声明二位数组的写法
 ```java
 int[][] pascalsTriangle = new int[4][];
-/**
+/*两个中括号--声明两个数组内存块 !注意必须声明一个数字来确定第一维长度*/
 int[] rowZero = pascalsTriangle[0];
 
 pascalsTriangle[0] = new int[]{1};
@@ -202,3 +203,4 @@ matrix = new int[4][4];
 
 int[][] pascalAgain = new int[][]{{1}, {1, 1},{1, 2, 1}, {1, 3, 3, 1}};
 ```
+
