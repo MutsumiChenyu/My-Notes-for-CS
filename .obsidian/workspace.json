@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "910503dae2065c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lec 7 ArrayList.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lec 7 ArrayList"
+            }
+          },
+          {
             "id": "dc56e2df59e8338b",
             "type": "leaf",
             "state": {
@@ -231,9 +245,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dc56e2df59e8338b",
+  "active": "910503dae2065c52",
   "lastOpenFiles": [
     "CS61B/lec3, 4, 5  List & Array 1 2 3 4.md",
+    "lec 7 ArrayList.md",
     "CS61B/lec 6 Testing 代码测试器.md",
     "README.md",
     "CS61A Finished/Lecture 11 Sequences.md",
@@ -261,7 +276,6 @@
     "LeetCode/Binary Tree.md",
     "LeetCode/1161. 最大层内元素和.md",
     "Useful Tools/C与CPP.md",
-    "Math for AI.md",
     "CS61A/Pasted image 20260302170445.png",
     "CS61A Finished/Lecture 22 Compromise",
     "CS61A Finished/Lecture 22 Compromise/Pasted image 20260225232837.png",
