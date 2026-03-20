@@ -35,3 +35,10 @@ public void Reduce(){
 
 
 #### 泛型AList
+
+```java
+Glorp[] items = (Glorp []) new Object[8];
+```
+这是泛型数组被创建的唯一写法 必须采用强制类型转换才能让JVM编译通过
+
+具体原因参见：

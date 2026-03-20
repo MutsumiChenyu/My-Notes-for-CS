@@ -111,7 +111,8 @@ public addList(int x){
 实际的是 只需要一个烧饼 烧饼的是循环指向的 最后一个元素指向头部的哨兵值本身
 .last & .prev
 
-![[Pasted image 20260317172202.png]]
+
+![[优化List的操作.png|682]]
 
 #### Generic泛型
 ```java
