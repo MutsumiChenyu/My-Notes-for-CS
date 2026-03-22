@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61B/lec8, 9, 10, 11 Inheritance.md",
+                "file": "CS61B/lec3, 4, 5  List & Array 1 2 3 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lec8, 9, 10, 11 Inheritance"
+              "title": "lec3, 4, 5  List & Array 1 2 3 4"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2703c3cee406d374",
@@ -233,13 +232,13 @@
   },
   "active": "d7094bce9a01228a",
   "lastOpenFiles": [
-    "Useful Tools/About Git.md",
-    "Useful Tools/C&C++.md",
-    "CS61B/lec8, 9, 10, 11 Inheritance.md",
-    "CS61B/lec 7 ArrayList.md",
-    "CS61B/lec 6 Testing 代码测试器.md",
     "CS61B/优化List的操作.png",
     "CS61B/lec3, 4, 5  List & Array 1 2 3 4.md",
+    "CS61B/lec 6 Testing 代码测试器.md",
+    "CS61B/lec 7 ArrayList.md",
+    "CS61B/lec8, 9, 10, 11 Inheritance.md",
+    "Useful Tools/About Git.md",
+    "Useful Tools/C&C++.md",
     "README.md",
     "CS61A Finished/Lecture 11 Sequences.md",
     "CS61A Finished/Lecture 4 High-Ordered Functions.md",
@@ -261,7 +260,6 @@
     "LeetCode/961.  重复数字 N-Repeated Element in Size 2N Array.md",
     "LeetCode/1390. 四因数.md",
     "LeetCode/66. 数组化数字加1.md",
-    "LeetCode/Binary Tree.md",
     "CS61A/Pasted image 20260302170445.png",
     "CS61A Finished/Lecture 22 Compromise",
     "CS61A Finished/Lecture 22 Compromise/Pasted image 20260225232837.png",
