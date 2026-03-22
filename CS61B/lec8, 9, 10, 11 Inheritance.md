@@ -29,7 +29,7 @@ public class AList<Item> implements List<Item>{
 
 }
 ```
-所有用接口名声明的内存块dou'yun'xu
+所有用接口名声明的内存块都允许接受子类的名称
 
 ##### Overriding & Overloading
 Overriding: 覆写 （MRO in python)
@@ -40,3 +40,39 @@ Overloading: 重载 （相同函数签名 不同参数接收）
 ```
 来提示这个方法是覆写的 对一个未覆写的方法写这个会报错
 如果子类没有完全覆写 Java也会编译错误
+
+#### Implementation Inheritance 实现继承
+不仅继承所有签名 也继承一部分方法
+在List中不实现是因为List的底层数据结构不同 类型方法不通用
+```java
+public interface List{
+	public void addFirst(Item x);
+	public void addLast(Item x);
+	/* Default keyword allows the implementation Inheritance */
+	default public void print(Item x){
+		......
+	}
+}
+/* How to Use the Interface? */
+public class AList<Item> implements List<Item>{
+//相当于Subclass in Python
+
+}
+```
+
+如果这个默认方法对某一个子类无效或不好呢？
+仍然可以Override
+
+#### Static & Dynamic Type
+
+Static 静态编译时类型
+```java
+List a;
+```
+那么这个a就在编译时确定为List类型
+
+Dynamic 运行时类型
+```java
+a = new AList();
+```
+这边的AList就是动态类型
