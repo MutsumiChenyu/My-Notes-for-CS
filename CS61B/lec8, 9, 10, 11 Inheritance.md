@@ -48,7 +48,7 @@ Overloading: 重载 （相同函数签名 不同参数接收）
 public interface List{
 	public void addFirst(Item x);
 	public void addLast(Item x);
-	/* Default keyword allows the implementation Inheritance */
+	/* Default keyword allows the implementation Inheritance 实现继承 */
 	default public void print(Item x){
 		......
 	}
@@ -60,7 +60,7 @@ public class AList<Item> implements List<Item>{
 }
 ```
 
-如果这个默认方法对某一个子类无效或不好呢？
+如果这个default对某一个子类无效或不好呢？
 仍然可以Override
 
 #### Static & Dynamic Type
@@ -77,3 +77,15 @@ a = new AList();
 ```
 这边的AList就是动态类型 检查这个a实际指向一个什么类型
 我们将使用动态类型覆写的方法
+
+#### 构建RotatingSLList
+这个继承自SLList 新关键词：Extend
+
+extend用于子类和父类  implements用于接口和第一子类
+class-class                    interface-class
+```java
+public class rotatingSLList<Item> extends SLList{
+	//Generic "Item"
+}
+```
+接下来只需要构建关于这个子类的特殊方法就能完成了
