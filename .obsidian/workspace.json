@@ -34,21 +34,8 @@
               "icon": "lucide-file",
               "title": "lec8, 9, 10, 11 Inheritance"
             }
-          },
-          {
-            "id": "753a9c7f86178ef5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.7"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,14 +229,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "753a9c7f86178ef5",
+  "active": "c0a56fe1425a5e11",
   "lastOpenFiles": [
+    "CS61B/lec8, 9, 10, 11 Inheritance.md",
     "CS61A Finished/Lecture 30 编程语言与计算器设计.md",
     "CS61A Finished/Lecture 28 29 Scheme & Scheme List.md",
     "CS61A Finished/Lecture 25 链表环境图，内置函数处理.md",
     "CS61A Finished/Lecture 24 解耦与模块化设计.md",
     "CS61A Finished/Lecture 23 Efficiency 效率与复杂度.md",
-    "CS61B/lec8, 9, 10, 11 Inheritance.md",
     "CS61B/lec3, 4, 5  List & Array 1 2 3 4.md",
     "CS61B/lec2 Java class.md",
     "CS61B/优化List的操作.png",
