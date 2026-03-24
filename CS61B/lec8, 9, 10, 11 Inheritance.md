@@ -116,5 +116,13 @@ super--走到父级并且执行父级的这个方法
 
 #### 最大的父类--Object （Similar to Python)
 
+所有class都继承了object中编写的方法
+
+implements和extend都是 is-a的关系
+
+#### Encapsulation
+	Manage Complexity
+隐藏实现细节 只提供Interface
+
 
 
