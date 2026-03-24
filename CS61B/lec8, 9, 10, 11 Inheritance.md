@@ -124,5 +124,20 @@ implements和extend都是 is-a的关系
 	Manage Complexity
 隐藏实现细节 只提供Interface
 
+#### 编译时类型检测
+比如声明了一个SLList 他的动态类型是Vengeful 但是静态是SLList 导致对这个对象调用lostItem时会产生Compile Error
+```java
+SLList<Integer> s1 = new VengefulList<>(); //Correct
+VengefulList<Integer> s2 = new SLList<>(); //Compile Error
+```
+一定要保证右边的类型高于或者与左边的类型相等
+Compiler不关心最终返回了什么 他只是找这个方法定义时写死的返回的值的类型
+##### 强制类型转换
+```java
+VengefulList<Integer> s2 = new SLList<>(); //Compile Error
+class2 A = (class2) func1(A, B);
+```
+
+
 
 
