@@ -84,8 +84,34 @@ a = new AList();
 extend用于子类和父类  implements用于接口和第一子类
 class-class                    interface-class
 ```java
-public class rotatingSLList<Item> extends SLList{
+public class rotatingSLList<Item> extends SLList <Item>{
 	//Generic "Item"
 }
 ```
 接下来只需要构建关于这个子类的特殊方法就能完成了
+
+#### 构建VengefulSLList
+记忆所有被删除的元素并且存放--重写removeLast
+仍然支持Override
+注意：私有的元素即使是子类也无法访问 --- 关键词super
+```java
+public VengefulSLList(){
+	//注意这边产生了一个Implicit Call, Java会自动优先调用父类的构建函数
+	super();//Java will do this automatically
+	lostItem = new SLList<>();
+}
+public VengefulSLList(Item x){
+	//如果有一个初始元素，就必须显式调用super 否则只会执行默认的父类构造
+	super(x);
+	lostItem = new SLList<>();
+}
+@Override
+public T removeLast() {
+	T x = super.removeLast();
+	lostItem.add(x);
+	return x
+}
+```
+super--走到父级并且执行父级的这个方法
+
+#### 最初的父类--Object（Similar t
