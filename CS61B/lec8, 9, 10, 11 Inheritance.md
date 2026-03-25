@@ -153,11 +153,11 @@ public class TenX(){
 		return 10 * x;
 	}
 }
-/*---一层函数---*/
+/*---------------------------------------------------------*/
 
 public class HofDemo {
 	public static int dotwice(IntUnaryFunc f, int x) {
-		......
+		f.apply(f.apply(x));
 	}
 }
 ```
