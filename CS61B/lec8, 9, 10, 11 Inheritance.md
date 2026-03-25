@@ -140,6 +140,27 @@ class2 A = (class2) func1(A, B);
 
 #### High Order Functions in Java
 
+在老Java中没有一个函数类型作为参数传入 不允许传入函数参数
+->方法： 创建一个类包装这个函数然后传入
 
+```java
+public interface IntUnaryFunc{
+	public int apply(int x);
+}
 
+public class TenX(){
+	public int apply(int x){
+		return 10 * x;
+	}
+}
+/*---一层函数---*/
 
+public class HofDemo {
+	public static int dotwice(IntUnaryFunc f, int x) {
+		......
+	}
+}
+```
+
+可以看到的是 你必须把函数封装在一个接口下的一个类 才能被传入函数中
+同时调用不得不写成方法的模式
