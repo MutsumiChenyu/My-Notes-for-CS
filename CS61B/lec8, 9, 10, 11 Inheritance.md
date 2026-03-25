@@ -138,6 +138,8 @@ VengefulList<Integer> s2 = new SLList<>(); //Compile Error
 class2 A = (class2) func1(A, B);
 ```
 
+#### High Order Functions in Java
+
 
 
 
