@@ -171,3 +171,5 @@ public class HofDemo {
 
 #### Subtype Polymorphism 子态多样性
 例子：找出一个适用于多种类的最大值函数
+写一个接口 让Dog类实现这个接口的功能 从而实现比较Dog而不创建一堆不同的方法
+
