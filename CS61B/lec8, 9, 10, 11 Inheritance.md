@@ -167,6 +167,7 @@ public class HofDemo {
 
 新版的Java已经支持了函数参数的特性 具体写法如下
 ```java
+代码不见了哦
 ```
 
 #### Subtype Polymorphism 子态多样性
@@ -212,7 +213,8 @@ public class Dog implements Comparable<Dog> {
 **先看static关键词的含义：**
 static所修饰的成员--这里的子类和这边的方法在父类创建时就被分配内存并保持固定
 static所修饰的成员中不允许使用实例变量 比如this是不行的 因为编译时就要确定static成员的内容 而实例变量需要被new才能使用 
+static所修饰的方法是类方法--不是实例方法
 
 回到我们的代码 这里的NameComparator 完全不需要知道谁创建了它--也就是说 他不需要保存关于创建实例的引用--自然就是static的
 
-观察函数--我们称getName的函数为工厂方法
+观察函数--我们称getName的函数为工厂方法--也就是Dog这个最大父类的方法--我们不可能创建一个具体的狗的实例再来创建比较的方法 比较的“工厂方法”必须从一开始就被实现 才能在后续一直被调用

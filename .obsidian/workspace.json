@@ -208,8 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7094bce9a01228a",
+  "active": "14f3be884d65c814",
   "lastOpenFiles": [
     "CS61B/lec3, 4, 5  List & Array 1 2 3 4.md",
     "CS61B/lec8, 9, 10, 11 Inheritance.md",
