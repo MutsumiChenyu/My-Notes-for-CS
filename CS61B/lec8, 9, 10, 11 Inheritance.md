@@ -184,6 +184,7 @@ public interface Comparator<T> {
 要求所有能被比较的对象都要满足这个比较接口 来创建一个可以比较的函数
 
 ```java
+//这个是一个Java标准库的内容
 import java.util.Comparator;
 
 public class Dog implements Comparable<Dog> {
@@ -193,15 +194,25 @@ public class Dog implements Comparable<Dog> {
     }
 	
 	//创建一个子类来比较狗的名字
+	//
     private static class NameComparator implements Comparator<Dog> {
         public int compare(Dog a, Dog b) {
             return a.name.compareTo(b.name);
         }
     }
 	
-	//创建一个函数能够
+	//创建一个函数能够调用这个子类的方法
     public static Comparator<Dog> getNameComparator() {
         return new NameComparator();
     }
 }
 ```
+为什么后面都是静态的呢：
+
+**先看static关键词的含义：**
+static所修饰的成员--这里的子类和这边的方法在父类创建时就被分配内存并保持固定
+static所修饰的成员中不允许使用实例变量 比如this是不行的 因为编译时就要确定static成员的内容 而实例变量需要被new才能使用 
+
+回到我们的代码 这里的NameComparator 完全不需要知道谁创建了它--也就是说 他不需要保存关于创建实例的引用--自然就是static的
+
+观察函数--我们称getName的函数为工厂方法
