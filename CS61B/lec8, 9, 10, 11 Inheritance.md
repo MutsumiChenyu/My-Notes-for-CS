@@ -170,6 +170,38 @@ public class HofDemo {
 ```
 
 #### Subtype Polymorphism 子态多样性
+
+Java允许implement多个接口 但只允许extend一个类
+因此我们可以创建比较类
+
 例子：找出一个适用于多种类的最大值函数
 写一个接口 让Dog类实现这个接口的功能 从而实现比较Dog而不创建一堆不同的方法
+```java
+public interface Comparator<T> {
+    int compare(T o1, T o2);
+}
+```
+要求所有能被比较的对象都要满足这个比较接口 来创建一个可以比较的函数
 
+```java
+import java.util.Comparator;
+
+public class Dog implements Comparable<Dog> {
+    ...
+    public int compareTo(Dog uddaDog) {
+        return this.size - uddaDog.size;
+    }
+	
+	//创建一个子类来比较狗的名字
+    private static class NameComparator implements Comparator<Dog> {
+        public int compare(Dog a, Dog b) {
+            return a.name.compareTo(b.name);
+        }
+    }
+	
+	//创建一个函数能够
+    public static Comparator<Dog> getNameComparator() {
+        return new NameComparator();
+    }
+}
+```
