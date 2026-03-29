@@ -285,8 +285,39 @@ for (int i : S){}
 
 #### Iteration
 ```java
+//要引入一个Iterator的接口
 //为我的Set创建一个迭代方法
-public Iterator<Integer> iterator(){
-	return new ArraySetIterator();
+public Iterator<T> iterator(){
+	return new ArraySetIterator<>();
+}
+
+private class ArraySetIterator<T> implements IteratorT> {
+	private int wizPos;
+	
+	public ArraySetIterator(){
+		wizPos = 0;
+	}
+	
+	@Override
+	public boolean hasNext(){
+	//返回下一个值是否存在
+	}
+	
+	@Override
+	public T next(){
+	//返回当前值 然后走到下一个值
+	}
 }
 ```
+当上述代码完成时 我们已经可以使用迭代器遍历了 但是仍然不能使用：来遍历
+
+我们必须在总的类里写满足可迭代：
+Iterable 可迭代的接口 来满足 **：** 表达式
+```java
+public class ArraySet implements Iterable<T>{
+}
+```
+
+总结：第一步：添加一个迭代器接口在这个类的类型迭代器中 --Ugly Iter
+		第二步：添加一个可迭代接口在这个类里 证明可迭代 --Beautiful Iter
+
