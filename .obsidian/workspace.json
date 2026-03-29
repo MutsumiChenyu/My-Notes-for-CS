@@ -11,14 +11,10 @@
             "id": "29b9232baafe5424",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TEST.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TEST"
+              "title": "新标签页"
             }
           }
         ]
@@ -214,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29b9232baafe5424",
+  "active": "aa47a50974195502",
   "lastOpenFiles": [
     "未命名.base",
     "TEST.md",
