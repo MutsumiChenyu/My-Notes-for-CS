@@ -321,3 +321,7 @@ public class ArraySet implements Iterable<T>{
 总结：第一步：添加一个迭代器接口在这个类的类型迭代器中 --Ugly Iter
 		第二步：添加一个可迭代接口在这个类里 证明可迭代 --Beautiful Iter
 
+#### Object Methods
+和python的__str__的原理和建构模式都完全一样
+##### toString Method
+
