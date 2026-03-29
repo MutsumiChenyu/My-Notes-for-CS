@@ -324,4 +324,9 @@ public class ArraySet implements Iterable<T>{
 #### Object Methods
 和python的__str__的原理和建构模式都完全一样
 ##### toString Method
+String and StringBuilder
+Java的字符串拼接使用字符串复制 所以创建字符串遇到循环时需要使用class : StringBuilder
 
+##### == vs .equal()
+== 对于基本类型可以使用 对于引用类型是检查两个对象的比特位（内存地址）是否相同
+equal是一个对象方法 用于判断语义相等 同样是对象方法继承自Object
