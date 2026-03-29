@@ -284,3 +284,9 @@ for (int i : S){}
 这里的S必须要可迭代：
 
 #### Iteration
+```java
+//为我的Set创建一个迭代方法
+public Iterator<Integer> iterator(){
+	return new ArraySetIterator();
+}
+```
