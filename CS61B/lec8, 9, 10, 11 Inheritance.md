@@ -218,3 +218,51 @@ static所修饰的方法是类方法--不是实例方法
 回到我们的代码 这里的NameComparator 完全不需要知道谁创建了它--也就是说 他不需要保存关于创建实例的引用--自然就是static的
 
 观察函数--我们称getName的函数为工厂方法--也就是Dog这个最大父类的方法--我们不可能创建一个具体的狗的实例再来创建比较的方法 比较的“工厂方法”必须从一开始就被实现 才能在后续一直被调用
+
+#### Java's Lists
+
+从代码中可以看出ArrayList是List的一个子类， List是一个接口 不能被实例化
+```java
+/*引入Java库的List和ArrayList*/
+import java.util.List;
+import java.util.ArrayList;
+
+public class Example {
+    public static void main(String[] args) {
+        List<Integer> L = new ArrayList<>();
+        L.add(5);
+        L.add(10);
+        System.out.println(L);
+    }
+}
+```
+
+#### Java's Sets
+Set集合 没有元素顺序的概念 没有索引 **每个元素只能有一个副本**
+```java
+/*引入Set接口以及子类的哈希集*/
+import java.util.Set;
+import java.util.HashSet;
+
+Set<String> s = new HashSet<>();
+s.add("Tokyo");
+s.add("Lagos");
+/*.contains -- 方法 检测是否存在*/
+System.out.println(s.contains("Tokyo")); // true
+```
+
+#### Java's Throw and Error
+```java
+public void add(T x) {
+    if (x == null) {
+    /*抛出语句具体的写法*/
+        throw new IllegalArgumentException("can't add null");
+    }
+    if (contains(x)) {
+        return;
+    }
+    items[size] = x;
+    size += 1;
+}
+```
+yu
