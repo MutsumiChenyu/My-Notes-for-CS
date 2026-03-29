@@ -265,4 +265,22 @@ public void add(T x) {
     size += 1;
 }
 ```
-yu
+与Python相同 Java的错误类型同样是一个class 所以在这里要写**new**
+语句：
+throw + new + 「Specific Category」Expection("Detailed Error Information");
+
+
+#### ArraySet and Iteration
+
+无序-唯一
+用数组构建一个Set集合 在下面的示例代码中 忽视扩容这一操作
+三个方法-add, contain, size
+
+加强循环：
+```java
+/*Enhances loop for Java*/
+for (int i : S){}
+```
+这里的S必须要可迭代：
+
+#### Iteration
