@@ -321,6 +321,7 @@ public class ArraySet implements Iterable<T>{
 总结：第一步：添加一个迭代器接口在这个类的类型迭代器中 --Ugly Iter
 		第二步：添加一个可迭代接口在这个类里 证明可迭代 --Beautiful Iter
 
+
 #### Object Methods
 和python的__str__的原理和建构模式都完全一样
 ##### toString Method
@@ -330,3 +331,12 @@ Java的字符串拼接使用字符串复制 所以创建字符串遇到循环时
 ##### == vs .equal()
 == 对于基本类型可以使用 对于引用类型是检查两个对象的比特位（内存地址）是否相同
 equal是一个对象方法 用于判断语义相等 同样是对象方法继承自Object
+
+##### instanceof
+```java
+if (o instanceof ArraySet other){
+}
+```
+同时执行类型检查和变量赋值
+如果o是一个ArraySet 那么返回True 并且 把o转化成一个other供你比较
+如果不是 那么直接结束
