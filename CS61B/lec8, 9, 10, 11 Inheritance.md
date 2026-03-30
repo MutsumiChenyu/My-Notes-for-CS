@@ -291,7 +291,7 @@ public Iterator<T> iterator(){
 	return new ArraySetIterator<>();
 }
 
-private class ArraySetIterator<T> implements IteratorT> {
+private class ArraySetIterator<T> implements Iterator<T> {
 	private int wizPos;
 	
 	public ArraySetIterator(){
