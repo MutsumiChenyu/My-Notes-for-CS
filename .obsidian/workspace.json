@@ -221,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,9 +246,9 @@
   },
   "active": "784af1bffe6503d5",
   "lastOpenFiles": [
-    "CS61B/lec15.md",
-    "CS61B/lec14 Disjoint Sets 并查集.md",
     "CS61B/并查集tree.png",
+    "CS61B/lec14 Disjoint Sets 并查集.md",
+    "CS61B/lec15.md",
     "CS61B/lec8, 9, 10, 11 Inheritance.md",
     "TEST.md",
     "未命名.base",
@@ -276,7 +277,6 @@
     "Useful Tools",
     "CS61B",
     "Introduction to Linear Algebra.md",
-    "CS50x Finished/Lecture 4 Memory.md",
     "CS61A/Pasted image 20260302170445.png",
     "CS61A Finished/Lecture 22 Compromise",
     "CS61A Finished/Lecture 22 Compromise/Pasted image 20260225232837.png",
