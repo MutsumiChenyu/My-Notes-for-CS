@@ -60,3 +60,115 @@ in Lab
 #### B-Tree的不变量
 1. 树的深度由根节点上升增加 所有**叶子**始终保持在一个深度不变
 2. 拥有K的元素的节点拥有K+1个分节点
+
+```java
+import java.util.Iterator;  
+import java.util.Set;  
+import java.util.Spliterator;  
+import java.util.function.Consumer;  
+  
+public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V> {  
+  
+    /*构建BST树节点类*/  
+    private class BSTNode {  
+        V item;  
+        K key;  
+        BSTNode right;  
+        BSTNode left;  
+  
+        public BSTNode(K content, V value){  
+            item = value;  
+            key = content;  
+        }  
+    }  
+  
+    private BSTNode root;  
+  
+    @Override  
+    public void put(Object key, Object value) {  
+        if (!(containsKey(key))){  
+  
+        }  
+    }  
+  
+    @Override  
+    public void put(K key, V value) {  
+  
+    }  
+  
+    @Override  
+    public V get(K key) {  
+        return null;  
+    }  
+  
+    @Override  
+    public boolean containsKey(K key) {  
+        return false;  
+    }  
+  
+    @Override  
+    public Object get(Object key) {  
+        return null;  
+    }  
+  
+    @Override  
+    public boolean containsKey(Object key) {  
+        //非比较类型 直接报错  
+        if (!(key instanceof Comparable realKey)) {  
+            return false;  
+        }  
+  
+        while (this.root != null){  
+            int value = realKey.compareTo(this.root.key);  
+  
+            if (value < 0){  
+                this.root = this.root.right;  
+            } else if (value == 0){  
+                return true;  
+            } else{  
+                this.root = this.root.left;  
+            }  
+        }  
+        return false;  
+    }  
+  
+    @Override  
+    public int size() {  
+        return 0;  
+    }  
+  
+    @Override  
+    public void clear() {  
+  
+    }  
+  
+    @Override  
+    public Set<K> keySet() {  
+        return Set.of();  
+    }  
+  
+    @Override  
+    public V remove(K key) {  
+        return null;  
+    }  
+  
+    @Override  
+    public Iterator iterator() {  
+        return null;  
+    }  
+  
+    @Override  
+    public void forEach(Consumer action) {  
+        Map61B.super.forEach(action);  
+    }  
+  
+    @Override  
+    public Spliterator spliterator() {  
+        return Map61B.super.spliterator();  
+    }  
+  
+    public void printToOrder(){  
+  
+    }  
+}
+```
