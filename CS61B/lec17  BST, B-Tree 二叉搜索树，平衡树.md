@@ -1,4 +1,4 @@
-
+logN - class 树越茂密 数据节点越多 实现的性能越好
 Binary-Search-Tree BST 一棵树
 对于这棵树上的每一个节点 他左边的节点都小于他 右边的节点都大于他
 
@@ -34,3 +34,13 @@ public BST delete(BST T, key){
 需要寻找到一个Predecessor（继任者）
 继任者的寻找规则：Root（被删除的节点）的：
 **左子树的最右侧的节点 或者是 右子树的最左侧的节点**
+
+
+#### Using BST in Sets and Maps
+in Lab
+
+### B-Trees 分裂树 平衡树
+
+#### Avoid Imbalance 
+分裂树通过在每一个节点限制元素个数（如2， 3）来降低树的高度 达成近似log级别的时间复杂度
+如图所示：
