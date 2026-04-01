@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61B/lec15 ADT BST 抽象数据结构，二叉搜索树.md",
+                "file": "CS61B/lec17 ADT BST 抽象数据结构，二叉搜索树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lec15 ADT BST 抽象数据结构，二叉搜索树"
+              "title": "lec17 ADT BST 抽象数据结构，二叉搜索树"
             }
           }
         ],
@@ -248,7 +248,7 @@
   "lastOpenFiles": [
     "CS61B/lec14 Disjoint Sets 并查集.md",
     "CS61B/并查集tree.png",
-    "CS61B/lec15 ADT BST 抽象数据结构，二叉搜索树.md",
+    "CS61B/lec17 ADT BST 抽象数据结构，二叉搜索树.md",
     "CS61B/lec8, 9, 10, 11 Inheritance.md",
     "TEST.md",
     "未命名.base",
