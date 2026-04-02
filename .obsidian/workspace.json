@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Project_2  Gitlet Proj Document"
             }
+          },
+          {
+            "id": "c41eb993462f5c4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS61B/lec18 Red-Black Trees 红黑树.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lec18 Red-Black Trees 红黑树"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -259,9 +273,10 @@
   },
   "active": "14f3be884d65c814",
   "lastOpenFiles": [
+    "CS61B/Project_2  Gitlet Proj Document.md",
+    "CS61B/lec18 Red-Black Trees 红黑树.md",
     "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
     "CS61B/BTree的分裂.png",
-    "CS61B/Project_2  Gitlet Proj Document.md",
     "CS61B/总节点分裂.png",
     "CS61B/lec14 Disjoint Sets 并查集.md",
     "CS61B/并查集tree.png",
