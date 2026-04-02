@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
+                "file": "Project2 Document Gitlet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lec17  BST, B-Tree 二叉搜索树，平衡树"
+              "title": "Project2 Document Gitlet"
             }
           }
         ],
@@ -260,9 +260,9 @@
   },
   "active": "039ce6b78f88d09d",
   "lastOpenFiles": [
+    "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
     "CS61B/BTree的分裂.png",
     "Project2 Document Gitlet.md",
-    "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
     "CS61B/总节点分裂.png",
     "CS61B/lec14 Disjoint Sets 并查集.md",
     "CS61B/并查集tree.png",
