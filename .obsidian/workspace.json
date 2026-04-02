@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project2 Document Gitlet.md",
+                "file": "CS61B/Project_2  Gitlet Proj Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project2 Document Gitlet"
+              "title": "Project_2  Gitlet Proj Document"
             }
           }
         ],
@@ -235,8 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,11 +257,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "039ce6b78f88d09d",
+  "active": "14f3be884d65c814",
   "lastOpenFiles": [
     "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
     "CS61B/BTree的分裂.png",
-    "Project2 Document Gitlet.md",
+    "CS61B/Project_2  Gitlet Proj Document.md",
     "CS61B/总节点分裂.png",
     "CS61B/lec14 Disjoint Sets 并查集.md",
     "CS61B/并查集tree.png",

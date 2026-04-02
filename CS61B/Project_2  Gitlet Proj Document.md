@@ -7,8 +7,8 @@ python work environment - **miniconda**
 	java -- 运行
 	make -- 编译
 	make check -- 编译并运行Check
-	cd .. -- 
-	cd ../.. -- 
+	cd .. -- 父级文件夹
+	cd ../..
 
 #### Java文件读写
 
