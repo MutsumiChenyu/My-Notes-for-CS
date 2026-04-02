@@ -20,7 +20,7 @@ File f = new File("dummy.txt");
 f.createNewFile();
 //验证存在性
 f.exists()
-//引入Utils库莱写入内容
+//引入Utils库来写入内容
 Utils.writeContents(f, "Hello World");
 //创建文件目录
 File d = new File("dummy");
