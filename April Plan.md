@@ -6,6 +6,6 @@
 CS61B完成
 多元微积分完成
 开始概率导论
-开始CS231n
+开始ML Specialization
 
 4.20 开始托福考试准备
