@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61B/Project_2  Gitlet Proj Document.md",
+                "file": "CS61B/lec18 Red-Black Trees 红黑树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project_2  Gitlet Proj Document"
+              "title": "lec18 Red-Black Trees 红黑树"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -272,7 +272,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b898c83f54ea5ce3",
+  "active": "aa47a50974195502",
   "lastOpenFiles": [
     "CS61B/Project_2  Gitlet Proj Document.md",
     "April Plan.md",
