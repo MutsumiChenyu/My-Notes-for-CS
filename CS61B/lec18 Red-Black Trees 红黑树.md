@@ -23,7 +23,7 @@ Left-leaning体现在分裂时把并列关系中小的元素放在大的元素�
 在构造树的时候，**就进行不断的旋转和维护来保证树的丰满程度**
 
 例子：此时不满足左倾的要求 对节点E执行左旋
-![[IMG_0268.jpg|674]]
+![[Black-Red Tree.jpg|674]]
 过饱和节点处理：ABC节点的拆分 LLRB就是BrA BlC
 过饱和节点不需要进行旋转-->处理方法：
 把这个过饱和节点的根节点相连的所有Link都反转颜色
@@ -33,9 +33,3 @@ Left-leaning体现在分裂时把并列关系中小的元素放在大的元素�
 1. 左旋 （if 当前节点Left红Right黑）
 2. 右旋 （if 当前节点Left红 LeftChild的Left红）
 3. 反转 （if 当前节点左右Link都Red， 反转颜色）
-
-```java
-public class LLRB{
-	
-}
-```

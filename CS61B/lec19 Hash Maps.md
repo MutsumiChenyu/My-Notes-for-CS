@@ -1,0 +1,1 @@
+避免对象必须要comparable
