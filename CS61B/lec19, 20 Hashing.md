@@ -17,4 +17,7 @@
 “cat” = square(26) \* 3 + 26 \* 1 + t
 能够保证给每一个单词赋值一个唯一确定的与之对应的整数
 
-方法：hashCode()
+#### 方法：hashCode()
+
+原始数据--hash code--取模等运算--结果--填入Hash Table中
+
