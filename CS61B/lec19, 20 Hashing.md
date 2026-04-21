@@ -22,3 +22,20 @@
 原始数据--hash code--取模等运算--结果--填入Hash Table中
 hashCode是根据内存地址计算的 最终导致每一次运行程序都会有完全不一样的结果
 
+弊端：如果你创建了一个基于12的元素 原先的HashSet有X个元素，其中有一个Bucket包含了12 那么如果你要说这个HashSet包含了这个基于12的元素，P = 1/X
+因此必须重写HashCode的编码方式
+
+#### Mutability
+一旦创建 无法改变
+```java
+public final int A;
+//此处的A是一旦被确定值 就无法改变的final元素
+```
+
+如果是数组：
+```java
+public final Rocks[] rocks;
+...
+Rocks[1] = null; //Acceptable!
+//之后可以进行修改Rocks中间的元素
+```
