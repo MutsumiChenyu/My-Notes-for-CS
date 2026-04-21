@@ -39,3 +39,9 @@ public final Rocks[] rocks;
 Rocks[1] = null; //Acceptable!
 //之后可以进行修改Rocks中间的元素
 ```
+
+
+凡是参与 `hashCode()` / `equals()` 计算的字段，在元素被放入 `HashSet` 之后，必须保持不变
+
+Java的HashSet最终在自动扩容导致单个Bucket内容过长的时候 会采用红黑树来收纳这些元素
+LL->LLRB
