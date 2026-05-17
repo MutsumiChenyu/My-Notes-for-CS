@@ -38,3 +38,18 @@ public interface MinPQ<Item> {
 处理方法：把最底层最左侧的一个元素 直接放到根节点的位置 然后继续进行fix and swap
 每次这个swap都要从上往下往最小的元素进行交换
 从根往叶片推广
+
+#### 基于数组的树实现
+```java
+public class arrayTree<T>{
+	T[] content;
+	int[] parents;
+}
+```
+content这个元素代表key 每一个数组内存格子储存一个对应的数据内容
+parents这个元素代表映射 每一个内存格储存了 对应index对应的content内容的这个元素 所处的树的层数 实现双数组表示树
+
+#### 代码实现
+```java
+public class heap
+```
