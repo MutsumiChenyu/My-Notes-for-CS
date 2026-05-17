@@ -15,5 +15,5 @@ public interface MinPQ<Item> {
     public int size();
 }
 ```
-
+不必用一整个列表实现数据结构，节省空间
 
