@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lec21 堆，优先队列.md",
+                "file": "CS61B/lec21 堆，优先队列.md",
                 "mode": "source",
                 "source": false
               },
@@ -285,10 +285,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "339abb2b8e5815ef",
+  "active": "aa47a50974195502",
   "lastOpenFiles": [
     "CS61B/lec19, 20 Hashing.md",
-    "lec21 堆，优先队列.md",
+    "CS61B/lec21 堆，优先队列.md",
     "CS61B/总节点分裂.png",
     "CS61B/BTree的分裂.png",
     "CS61B/Project_2  Gitlet Proj Document.md",
