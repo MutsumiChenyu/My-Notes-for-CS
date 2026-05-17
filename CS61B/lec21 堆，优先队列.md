@@ -47,7 +47,9 @@ public class arrayTree<T>{
 }
 ```
 content这个元素代表key 每一个数组内存格子储存一个对应的数据内容
-parents这个元素代表映射 每一个内存格储存了 对应index对应的content内容的这个元素 所处的树的层数 实现双数组表示树
+parents这个元素代表映射 每一个内存格储存了 对应index对应的content内容的这个元素 的父节点是什么 （根节点就是自身）
+其实无需parents 只需要自身的（（index - 1） / 2）就可以直接得到这个节点的父节点
+同时这个数组写一个resize的功能即可
 
 #### 代码实现
 ```java
