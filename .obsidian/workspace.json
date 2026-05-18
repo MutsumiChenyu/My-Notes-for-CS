@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lec22 Graphs and Traversals.md",
+                "file": "CS61B/lec22 Graphs and Traversals 图论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lec22 Graphs and Traversals"
+              "title": "lec22 Graphs and Traversals 图论"
             }
           }
         ],
@@ -245,9 +245,9 @@
   },
   "active": "a89503331f82263f",
   "lastOpenFiles": [
-    "截屏 2026-05-18 14.44.40.png",
+    "CS61B/DFS.png",
     "CS61B/lec21 堆，优先队列.md",
-    "lec22 Graphs and Traversals.md",
+    "CS61B/lec22 Graphs and Traversals 图论.md",
     "CS61B/并查集tree.png",
     "CS61B/lec19, 20 Hashing.md",
     "CS61B/总节点分裂.png",
