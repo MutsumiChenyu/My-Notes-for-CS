@@ -47,3 +47,12 @@ All vertices are connected, so the all graph is connected.
 1. No nodes connect to themselves 不自循环
 2. No parallel edges connect the same nodes 不平行边
 
+#### Graph Traversals
+
+##### Q1 如何确定两点Connected？
+每个节点问自己的neighbour 检查是否connected不断递归 同时检测过的节点进行mark防止infinite loop **深度优先搜索**
+从左到右往右依次探索 深度优先探索整个subgraph
+
+##### Q2 如何找到每一条路径
+使用深度优先搜索
+
