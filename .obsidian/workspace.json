@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "lec23 Graph Traversals and Implementations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "lec23 Graph Traversals and Implementations"
             }
           }
         ],
@@ -245,8 +245,11 @@
   },
   "active": "a89503331f82263f",
   "lastOpenFiles": [
-    "CS61B/lec22 Graphs and Traversals 图论.md",
     "CS61B/DFS.png",
+    "lec23 Graph Traversals and Implementations.md",
+    "README.md",
+    "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
+    "CS61B/lec22 Graphs and Traversals 图论.md",
     "CS61B/lec21 堆，优先队列.md",
     "CS61B/并查集tree.png",
     "CS61B/lec19, 20 Hashing.md",
@@ -255,7 +258,6 @@
     "CS61B/Project_2  Gitlet Proj Document.md",
     "CS61B/Black-Red Tree.jpg",
     "CS61B/lec18 Red-Black Trees 红黑树.md",
-    "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
     "April Plan.md",
     "CS61B/lec14 Disjoint Sets 并查集.md",
     "CS61B/lec8, 9, 10, 11 Inheritance.md",
@@ -263,7 +265,6 @@
     "未命名.base",
     "未命名 1.base",
     "CS61B/lec3, 4, 5  List & Array 1 2 3 4.md",
-    "README.md",
     "CS61A Finished/Lecture 30 编程语言与计算器设计.md",
     "CS61A Finished/Lecture 28 29 Scheme & Scheme List.md",
     "CS61A Finished/Lecture 25 链表环境图，内置函数处理.md",
@@ -277,7 +278,6 @@
     "Useful Tools/C&C++.md",
     "CS61A Finished/Lecture 11 Sequences.md",
     "CS61A Finished/Lecture 4 High-Ordered Functions.md",
-    "CS61A Finished/Lecture 6 Sounds.md",
     "Useful Tools",
     "CS61B",
     "CS61A/Pasted image 20260302170445.png",
