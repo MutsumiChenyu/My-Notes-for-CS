@@ -1,3 +1,11 @@
 # My-Notes-for-CS
 
-Here are my notes on my journey to computer science!
+In this repository, all the notes I have written during my journey to Computer Science are updating (almost every day).
+
+#### Online courses includes:
+CS50x
+CS61A
+CS61B
+
+#### Programming Skills:
+LeetCode
