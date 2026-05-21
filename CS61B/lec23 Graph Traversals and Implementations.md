@@ -22,4 +22,9 @@ Array of Lists
 V for vertices
 E for edges
 
-O(V * E)
+O(V + E) 哪一个元素增长快 哪一个元素占主导地位
+
+#### BFS Breadth First Sort 广度优先搜索
+
+图的BFS -- 根据**距离搜索原点S的距离**决定level数
+
