@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATLAB.md",
+                "file": "CS61B/lec23 Graph Traversals and Implementations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MATLAB"
+              "title": "lec23 Graph Traversals and Implementations"
             }
           }
         ],
@@ -259,8 +259,8 @@
   },
   "active": "7dc88b20719cdc78",
   "lastOpenFiles": [
-    "CS61B/lec23 Graph Traversals and Implementations.md",
     "MATLAB.md",
+    "CS61B/lec23 Graph Traversals and Implementations.md",
     "CS61B/DFS.png",
     "README.md",
     "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
