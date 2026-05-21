@@ -53,12 +53,14 @@
             "id": "7dc88b20719cdc78",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "CS61B/BFS-Graph.png"
+                "file": "CS61B/lec23 Graph Traversals and Implementations.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "BFS-Graph"
+              "icon": "lucide-file",
+              "title": "lec23 Graph Traversals and Implementations"
             }
           }
         ],
@@ -257,11 +259,11 @@
   },
   "active": "7dc88b20719cdc78",
   "lastOpenFiles": [
-    "CS61B/DFS.png",
+    "CS61B/Graph实现.png",
     "CS61B/BFS-Graph.png",
+    "CS61B/DFS.png",
     "CS61B/lec23 Graph Traversals and Implementations.md",
     "CS61B/lec22 Graphs and Traversals 图论.md",
-    "CS61B/Graph实现.png",
     "CS61B/lec1 Java.md",
     "CS61B/lec2 Java class.md",
     "MATLAB.md",
