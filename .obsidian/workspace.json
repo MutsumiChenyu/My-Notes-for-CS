@@ -55,10 +55,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "CS61B/截屏 2026-05-21 14.33.01.png"
+                "file": "CS61B/BFS-Graph.png"
               },
               "icon": "lucide-image",
-              "title": "截屏 2026-05-21 14.33.01"
+              "title": "BFS-Graph"
             }
           }
         ],
@@ -255,16 +255,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa47a50974195502",
+  "active": "7dc88b20719cdc78",
   "lastOpenFiles": [
+    "CS61B/DFS.png",
+    "CS61B/BFS-Graph.png",
     "CS61B/lec23 Graph Traversals and Implementations.md",
     "CS61B/lec22 Graphs and Traversals 图论.md",
-    "CS61B/截屏 2026-05-21 14.33.01.png",
     "CS61B/Graph实现.png",
     "CS61B/lec1 Java.md",
     "CS61B/lec2 Java class.md",
     "MATLAB.md",
-    "CS61B/DFS.png",
     "README.md",
     "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
     "CS61B/lec21 堆，优先队列.md",
