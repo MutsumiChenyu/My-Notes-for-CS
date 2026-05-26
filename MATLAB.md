@@ -49,3 +49,15 @@ switch variable
 		Block3
 end
 ```
+
+#### fprintf填充
+
+`fprint("%d th Hello \n", count)`
+%d代表整数，%f代表浮点数
+
+#### for
+```matlab
+for variable = start:increment:stop
+1:2:5 = 1, 3, 5
+% 包含头尾 increment步长
+```
