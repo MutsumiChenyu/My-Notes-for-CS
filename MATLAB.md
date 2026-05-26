@@ -36,9 +36,7 @@ disp(str1(mask)); %extract all elements identiﬁed by the mask
 `"AB"<"Ab" ; %true`
 
 if-else语句不需要分号 Block需要
-
 #### Switch
-
 ```matlab
 switch variable
 	case A
@@ -49,15 +47,20 @@ switch variable
 		Block3
 end
 ```
-
 #### fprintf填充
-
 `fprint("%d th Hello \n", count)`
 %d代表整数，%f代表浮点数
-
 #### for
 ```matlab
 for variable = start:increment:stop
 1:2:5 = 1, 3, 5
 % 包含头尾 increment步长
+```
+#### try-catch
+```matlab
+try
+	doA
+catch % if A failed
+	doB
+end
 ```
