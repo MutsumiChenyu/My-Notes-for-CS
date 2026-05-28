@@ -14,7 +14,7 @@ DFS的Pre/Post决定了如何处理节点
 
 2. 表示一组边 rare
 3. 邻接链表 Adjacency List
-Array of Lists
+Array of Lists 有点类似HashMap
 
 ![[Graph实现.png]]
 #### 实现的时间复杂度
