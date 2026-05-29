@@ -20,4 +20,5 @@ SPT:    V vertices & (V - 1) edges
 #### Dijkstra's Algorithm
 会追踪每个节点到原始节点的最优距离
 
-本质上
+本质上Dijkstra的逻辑就是一个加权的BFS，但是在出队逻辑上，D算法不能使用Deque，需要推出一个权重最低（路径最短的）节点来进行优先处理——
+所以要用的数据结构是 -- Priority Queue 优先队列
