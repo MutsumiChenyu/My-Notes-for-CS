@@ -13,7 +13,10 @@
 
 **创建一个特定元素的矩阵**：先创建0矩阵 然后用循环修改元素
 
-Matrix[index] = [] %把某个元素变成空
+Matrix[index] = [] %删除某个index的元素 并且进行平移（只能对Array）
+
+num2srr(content) 把content转化成字符串，并且保留格式
+Matrix也可以哦
 
 #### 逻辑运算
 `x = [1, 3, 7, 10];
