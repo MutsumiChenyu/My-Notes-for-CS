@@ -16,7 +16,7 @@
 Matrix[index] = [] %删除某个index的元素 并且进行平移（只能对Array）
 
 num2srr(content) 把content转化成字符串，并且保留格式
-Matrix也可以哦
+Matrix也可以哦um
 
 #### 逻辑运算
 `x = [1, 3, 7, 10];
