@@ -80,7 +80,7 @@ tic--开始计时
 toc--结束计时
 
 #### Row-Col储存方式 -- 外层Col
-![[Pasted image 20260602104809.png]]
+![[Matlab-先Col后Row.png]]
 
 因为Matlab的内存储存方式--每一列的元素在内存中是连续的
 因此在外层用Col数来循环节约程序执行时间
