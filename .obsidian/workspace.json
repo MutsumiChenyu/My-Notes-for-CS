@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS231n/lec1 Image Classification.md",
+                "file": "CS231n/Numpy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lec1 Image Classification"
+              "title": "Numpy"
             }
           }
         ],
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2703c3cee406d374",
@@ -275,10 +274,11 @@
   },
   "active": "7d66b0c309365ba5",
   "lastOpenFiles": [
+    "CS231n/lec1 Image Classification.md",
+    "CS231n/Numpy.md",
     "Pasted image 20260603110216.png",
     "CS231n/L1L2.png",
     "CS231n/距离计算.png",
-    "CS231n/lec1 Image Classification.md",
     "CS61B/lec24 Shortest Path Find 最短路径.md",
     "CS231n",
     "CS61B/最短路径--Dijkstra.png",
@@ -297,7 +297,6 @@
     "README.md",
     "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
     "CS61B/并查集tree.png",
-    "CS61B/总节点分裂.png",
     "CS61B/Project_2  Gitlet Proj Document.md",
     "CS61B/lec18 Red-Black Trees 红黑树.md",
     "April Plan.md",
