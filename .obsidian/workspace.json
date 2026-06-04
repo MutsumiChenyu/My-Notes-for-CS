@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "lec1 Image Classification"
             }
+          },
+          {
+            "id": "9538201da93caa93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS231n/lec1 Image Classification.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lec1 Image Classification"
+            }
+          },
+          {
+            "id": "e2c8064b58d65ae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lec2 Linear Classifier.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lec2 Linear Classifier"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,8 +245,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d66b0c309365ba5",
+  "active": "e2c8064b58d65ae3",
   "lastOpenFiles": [
+    "Pasted image 20260604150657.png",
+    "Pasted image 20260604150128.png",
+    "CS231n/lec1 Image Classification.md",
     "CS231n/Numpy.md",
     "CS50x Finished/Lecture 4 Memory.md",
     "LeetCode/5. 最长回文字符串.md",
@@ -236,7 +268,6 @@
     "lec2 Linear Classifier.md",
     "Pasted image 20260604145303.png",
     "Pasted image 20260604144458.png",
-    "CS231n/lec1 Image Classification.md",
     "CS61B/lec24 Shortest Path Find 最短路径.md",
     "CS61B/lec21 Heap, Priority Queue.md",
     "Pasted image 20260603110216.png",
@@ -249,12 +280,10 @@
     "MATLAB.md",
     "CS61B/lec22 Graphs and Traversals 图论.md",
     "CS61B/Graph实现.png",
-    "CS61B/BFS-Graph.png",
     "CS61B/lec1 Java.md",
     "CS61B/lec2 Java class.md",
     "README.md",
     "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
-    "CS61B/Project_2  Gitlet Proj Document.md",
     "未命名.base",
     "未命名 1.base",
     "Useful Tools",

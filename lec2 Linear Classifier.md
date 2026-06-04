@@ -19,3 +19,23 @@ Loss = 每个样本的误差平均
 
 #### SoftMax Classifier
 
+把F函数输出的内容转化成概率分布 -- 衡量做的好/不好
+![[Pasted image 20260604150128.png]]
+把输出的结果标化了 -- 每个xi--每个s --对应一个概率分布
+
+##### 如何衡量结果 -- KL Divergence
+
+D(KL)(P || Q) = sum(P(y)\* log(P/Q))
+
+![[Pasted image 20260604150657.png]]
+
+右边的Correct -- One-Hot编码的正确结果 --正确 = 1， 错误 = 0
+左边的概率分布 -- 线性函数f计算的结果进行Softmax概率分布归化
+Li -- 损失函数
+D（KL）-- KL散度 衡量正确结果与输出的概率分布的离散程度
+Loss -- 此处为 Cross Entropy Loss 交叉熵损失
+
+**注意点 y是类别 X是输出的概率， 交叉熵损失函数衡量的是对于正确类别， Loss的大小 -- 概率越高 Loss越小**
+
+CEL：-y\* log(x) -- x Possibility, y Onehot Code
+
