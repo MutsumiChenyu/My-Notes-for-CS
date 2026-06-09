@@ -84,3 +84,20 @@ toc--结束计时
 
 因为Matlab的内存储存方式--每一列的元素在内存中是连续的
 因此在外层用Col数来循环节约程序执行时间
+
+#### function in Matlab
+
+```matlab
+function outputArgu = funcName(inputArgu)
+	%function body
+end
+```
+
+#### 内置函数
+
+```matlab
+rand(n, m) % 生成n*m的随机数矩阵
+randi([m, M], n) % n*n的方阵 其中数字是[m, M]中的随机整数
+randperm(n) % 生成从1-n的随机排列
+rng(seed, generator) % 根据特定种子来生成随机数
+```
