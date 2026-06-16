@@ -131,6 +131,10 @@ student(2).grade = 70;
 
 ##### cell array
 可以储存不同数据类型在同一个array中
+Index -- {m, n} 本质是一个能够储存各种数据类型的矩阵
+```matlab
+A = cell(2, 2); % 创建一个
+```
 
 #### 文件IO
 
@@ -197,6 +201,7 @@ format -- uint8(default)
 \*char -- 读入字符并且强制按照字符输出
 char -- 读入字符但不强制字符输出 -- 会输出ASCII码
 #### plot -- 绘制图像
+
 需要的信息：
 - **Title**：标题；
 - **X label**：横轴名称；
@@ -204,7 +209,6 @@ char -- 读入字符但不强制字符输出 -- 会输出ASCII码
 - **Legend**：图例；
 - **Scale**：刻度；
 - **Axis**：坐标轴范围。
-
 ```matlab
 %生成样本点并且创建两个函数
 x = linspace(0, 2*pi, 100);
