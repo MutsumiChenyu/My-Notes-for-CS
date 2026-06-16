@@ -89,7 +89,7 @@ toc--结束计时
 
 ```matlab
 function outputArgu = funcName(inputArgu)
-	%function body
+	% function body
 end
 ```
 
@@ -120,28 +120,24 @@ student(2).grade = 70;
 ```
 
 ##### cell array
+可以储存不同数据类型在同一个array中
 
 #### 文件IO
 
 ##### importdata
 适用于txt csv等表格文件 可以分离文字内容和数字内容
-
 ```matlab
 A = importdata('fileName', '分隔符', int-跳过的行数);
 ```
-
 分隔符 -- 
 如果数据的记录形式是1,2,3  那么这里的分隔符就是","
 如果是1 2 3 那么就是" "
-
 ##### fopen & fclose
-
 ```matlab
 fd = fopen('filename', permission)
 % 文件名， 权限类型;
 fclose(fd);
 ```
-
 ##### 权限类型
 Read only (default): **r**
 Open or create new ﬁle for writing only (discard existing): **w**
@@ -154,7 +150,6 @@ r+ : ABCDEF -- XYZDEF
 从文件头部开始擦除等量内容， 并且填入新内容（头部开始）
 w+ : ABCDEF -- XYZ
 清空文件后再写入
-
 ##### Write
 ```matlab
 fprintf(fileID, 'format', variable);
@@ -170,8 +165,6 @@ g -- 紧凑型浮点数 -- 保留6位有效数字
 
 format对于矩阵是采用按照列的顺序进行应用的 例如一个两列的矩阵都要应用格数符
 "%d %.2f \n" -- 第一列是整数 第二列保留两位小数
-
-
 ##### Read
 ```matlab
 fscanf(fileID, 'format', sizeFormat);
@@ -218,10 +211,12 @@ plot(x, y2, 'r:', 'LineWidth', 3);
 
 % 设置标题和字体大小
 title('Plot of the Sine Function', 'FontSize', 20);
+% x轴的标签
 xlabel('x', 'FontSize', 20);
 
 yyaxis left
 ylabel('sin(x)', 'FontSize', 20);
+% 设定轴xy同时设定 -- [x初始 x末尾 y初始 y末尾]
 axis([0 2*pi -1.5 1.5]);
 
 yyaxis right
