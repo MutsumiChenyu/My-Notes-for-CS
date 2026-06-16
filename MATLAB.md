@@ -167,6 +167,11 @@ fprintf(fileID, 'format', variable);
 f -- 输出内容为浮点数 -- 默认保留6位小数
 g -- 紧凑型浮点数 -- 保留6位有效数字
 010 -- 10位宽 不够的地方用0来填充
+
+format对于矩阵是采用按照列的顺序进行应用的 例如一个两列的矩阵都要应用格数符
+"%d %.2f \n" -- 第一列是整数 第二列保留两位小数
+
+
 ##### Read
 ```matlab
 fscanf(fileID, 'format');
@@ -178,3 +183,5 @@ fscanf(fileID, 'format');
 fgetl(fileID) %l 不需要行结束的换行符
 fgets(fileID) %s 保留换行符
 ```
+
+##### EOF
