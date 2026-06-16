@@ -159,10 +159,22 @@ w+ : ABCDEF -- XYZ
 ```matlab
 fprintf(fileID, 'format', variable);
 ```
-格式和printf的格式基本一致，format是字符串格式化 就是%d这类的内容
-
+格式和printf的格式基本一致
+###### format
+"%10.2f\n"
+10 -- 输出输入内容位宽 -- 10个字符
+.2 -- 输出内容保留两位小数
+f -- 输出内容为浮点数 -- 默认保留6位小数
+g -- 紧凑型浮点数 -- 保留6位有效数字
+010 -- 10位宽 不够的地方用0来填充
 ##### Read
 ```matlab
 fscanf(fileID, 'format');
 ```
 按照format中的格式要求读取内容， 不填写format就是默认全部读取
+
+```matlab
+% 按照行读取
+fgetl(fileID) %l 不需要行结束的换行符
+fgets(fileID) %s 保留换行符
+```
