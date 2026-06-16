@@ -108,6 +108,16 @@ rng(seed, generator) % 根据特定种子来生成随机数
 intX - X位整数 -- X = 8, 16, 32, ...
 uintX - X位无符号整数 (>= 0)
 
+##### 内置函数
+```matlab
+strcmp(s1, s2)     % 比较是否完全相等
+strcmpi(s1, s2)    % 在忽略大小写的情况下是否完全相等
+strncmp(s1, s2, n) % 比较前n个字符是否相等
+strrep(s1, s2, s3) % 把s1中和s2相等的部分换成s3
+strfind(s1, s2)    % 输出一个数组 展示s1中出现s2的内容的第一个字符的index
+num2str(s1, 'format') % 按照格式要求把s1的数字转化成字符串
+```
+
 ##### struct array
 直接用.创建新结构 在新结构命名后加入(i)来生成struct array
 ```matlab
