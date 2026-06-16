@@ -151,4 +151,18 @@ Read and overwrite: **w+**
 Read and append: **a+**
 
 r+ : ABCDEF -- XYZDEF
-w
+从文件头部开始擦除等量内容， 并且填入新内容（头部开始）
+w+ : ABCDEF -- XYZ
+清空文件后再写入
+
+##### Write
+```matlab
+fprintf(fileID, 'format', variable);
+```
+格式和printf的格式基本一致，format是字符串格式化 就是%d这类的内容
+
+##### Read
+```matlab
+fscanf(fileID, 'format');
+```
+按照format中的格式要求读取内容， 不填写format就是默认全部读取
