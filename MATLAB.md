@@ -122,3 +122,33 @@ student(2).grade = 70;
 ##### cell array
 
 #### 文件IO
+
+##### importdata
+适用于txt csv等表格文件 可以分离文字内容和数字内容
+
+```matlab
+A = importdata('fileName', '分隔符', int-跳过的行数);
+```
+
+分隔符 -- 
+如果数据的记录形式是1,2,3  那么这里的分隔符就是","
+如果是1 2 3 那么就是" "
+
+##### fopen & fclose
+
+```matlab
+fd = fopen('filename', permission)
+% 文件名， 权限类型;
+fclose(fd);
+```
+
+##### 权限类型
+Read only (default): **r**
+Open or create new ﬁle for writing only (discard existing): **w**
+Append to a ﬁle: **a**
+Read and write: **r+**
+Read and overwrite: **w+**
+Read and append: **a+**
+
+r+ : ABCDEF -- XYZDEF
+w
