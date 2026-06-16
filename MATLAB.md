@@ -101,3 +101,24 @@ randi([m, M], n) % n*n的方阵 其中数字是[m, M]中的随机整数
 randperm(n) % 生成从1-n的随机排列
 rng(seed, generator) % 根据特定种子来生成随机数
 ```
+
+#### 数据类型
+
+##### int & uint
+intX - X位整数 -- X = 8, 16, 32, ...
+uintX - X位无符号整数 (>= 0)
+
+##### struct array
+直接用.创建新结构 在新结构命名后加入(i)来生成struct array
+```matlab
+student.name = "A";
+student.gender = "F";
+student.grade = 60;
+student(2).name = "B";
+student(2).gender = "M";
+student(2).grade = 70;
+```
+
+##### cell array
+
+#### 文件IO
