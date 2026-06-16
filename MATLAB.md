@@ -174,9 +174,10 @@ format对于矩阵是采用按照列的顺序进行应用的 例如一个两列�
 
 ##### Read
 ```matlab
-fscanf(fileID, 'format');
+fscanf(fileID, 'format', sizeFormat);
 ```
 按照format中的格式要求读取内容， 不填写format就是默认全部读取
+第三个参数是size的要求 如果size是\[m, n] 那么读取的形式就是m行n列 如果有一个参数是Inf表示那个行or列按照满读取进行scan
 
 ```matlab
 % 按照行读取
@@ -184,4 +185,12 @@ fgetl(fileID) %l 不需要行结束的换行符
 fgets(fileID) %s 保留换行符
 ```
 
+```matlab
+fread(fileId, size, format);
+```
+read与scanf的区别是read按照数据类型进行分类 而不是格式字符串
+format -- uint8(default)
+'\*char', 'double', 'single'
+\*char -- 读入字符并且强制按照字符输出
+char -- 读入字符但不强制字符输出 -- 会输出ASCII码
 ##### EOF
