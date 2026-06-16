@@ -209,10 +209,14 @@ y = sin(x);
 y2 = cos(x);
 % 切换到左侧的y轴
 yyaxis left
+% 'b-'线条设定 -- b-blue, --实线
+% Linewidth -- 线宽设定（绘图的线的宽度）
 plot(x, y, 'b-', 'LineWidth', 3);
 yyaxis right
+% "r:"线条设定 -- r-red :-虚线
 plot(x, y2, 'r:', 'LineWidth', 3);
 
+% 设置标题和字体大小
 title('Plot of the Sine Function', 'FontSize', 20);
 xlabel('x', 'FontSize', 20);
 
