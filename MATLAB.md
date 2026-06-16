@@ -193,4 +193,36 @@ format -- uint8(default)
 '\*char', 'double', 'single'
 \*char -- 读入字符并且强制按照字符输出
 char -- 读入字符但不强制字符输出 -- 会输出ASCII码
-##### EOF
+#### plot -- 绘制图像
+需要的信息：
+- **Title**：标题；
+- **X label**：横轴名称；
+- **Y label**：纵轴名称；
+- **Legend**：图例；
+- **Scale**：刻度；
+- **Axis**：坐标轴范围。
+
+```matlab
+%生成样本点并且创建两个函数
+x = linspace(0, 2*pi, 100);
+y = sin(x);
+y2 = cos(x);
+% 切换到左侧的y轴
+yyaxis left
+plot(x, y, 'b-', 'LineWidth', 3);
+yyaxis right
+plot(x, y2, 'r:', 'LineWidth', 3);
+
+title('Plot of the Sine Function', 'FontSize', 20);
+xlabel('x', 'FontSize', 20);
+
+yyaxis left
+ylabel('sin(x)', 'FontSize', 20);
+axis([0 2*pi -1.5 1.5]);
+
+yyaxis right
+ylabel('cos(x)', 'FontSize', 20);
+axis([0 2*pi -1.5 1.5]);
+
+legend('sin(x)', 'cos(x)', 'FontSize', 20);
+```
