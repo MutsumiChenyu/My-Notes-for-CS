@@ -69,7 +69,7 @@ This word cloud presents frequent secondary crime descriptions in 2025. Large ph
 
 This geobubble map shows 2025 crime counts by police district. Larger bubbles represent districts with more reported crimes. The map reveals that crime reports are spatially uneven, with some districts having around fifteen thousand cases while others have far fewer.
 
-District  had the highest number of reported crimes, with  cases; while District YY had the lowest, with  cases.
+District 1 had the highest number of reported crimes, with 15154 cases; while District 11 had the lowest, with 12 cases.
 
   
 
