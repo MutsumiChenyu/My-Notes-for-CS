@@ -1,12 +1,13 @@
-# VG101 Project 1 Figure Report
 
+
+Chenyu Wang 王辰宇_525370910188
   
 
 ## Figure 1. Crime Description Word Cloud
 
   
+![[2c3bd03186f5ee078791d26939b457d5.png]]
 
-![Crime description word cloud](Crime_description_wordcloud.jpg)
 
   
 
@@ -18,8 +19,8 @@ This word cloud summarizes frequent secondary crime descriptions in 2025. Larger
 
   
 
-![Yearly reported crimes](Yearly_crimeNumber_bar.jpg)
 
+![[e5d9524e91dc32d434c829a629cc62f2.png]]
   
 
 This bar chart shows the annual number of reported crimes in Chicago from 2014 to 2025. The number of reported cases stayed relatively high before 2019, dropped noticeably in 2020 and 2021, and then recovered in 2022-2024. The 2025 value is lower than 2023 and 2024, suggesting a recent decrease in reported crimes.
@@ -30,7 +31,7 @@ This bar chart shows the annual number of reported crimes in Chicago from 2014 t
 
   
 
-![Average accumulated monthly crimes](Accumulated_crimeNumber_line.jpg)
+![[94c5cd09f25fc1f6707c43134ef435de.png]]
 
   
 
@@ -42,8 +43,8 @@ This line plot shows the average accumulated number of crimes by month from 2014
 
   
 
-![Primary crime type distribution](Crime_type_pie.jpg)
 
+![[60a60d24ee59c7c9f6206eee546fe7f2.png]]
   
 
 This pie chart presents the top primary crime types from 2014 to 2025. `THEFT` is the largest category, followed by `BATTERY`, while `CRIMINAL DAMAGE`, `ASSAULT`, `DECEPTIVE PRACTICE`, and `OTHER OFFENSE` also account for large portions. The sizable `others` category shows that many less frequent types still contribute substantially when combined.
@@ -54,7 +55,7 @@ This pie chart presents the top primary crime types from 2014 to 2025. `THEFT` i
 
   
 
-![Crime time pattern](Crime_time_pattern_heatmap.jpg)
+![[a27c36faaeae27b372b9b7e83e6e7bd9.png]]
 
   
 
@@ -64,9 +65,9 @@ This heatmap shows the distribution of 2025 crimes by day of week and hour of da
 
 ## Figure 6. Crime Location Density with Community Area Boundaries
 
-  
+  ![[ff7ce0a27e50ce8cabc1fef7004eb1df.png]]
 
-![Crime location density](Crime_location_density.jpg)
+
 
   
 
@@ -76,9 +77,9 @@ This map shows the geographic density of 2025 crime records together with Chicag
 
 ## Figure 7. Crime Distribution by Police District
 
-  
+  ![[9d7b4abf7a15e1f0a7078128c0c6f8dc.png]]
 
-![Crime distribution by police district](Crime_distribution_bubble.jpg)
+
 
   
 
