@@ -11,10 +11,14 @@
             "id": "afec5627cf68b4f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Report.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Report"
             }
           }
         ]
@@ -211,8 +215,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa47a50974195502",
+  "active": "afec5627cf68b4f8",
   "lastOpenFiles": [
+    "Report.md",
     "MATLAB.md",
     "Markdown Practice.md",
     "Matlab-先Col后Row.png",
@@ -249,7 +254,6 @@
     "CS61B/lec1 Java.md",
     "CS61B/lec2 Java class.md",
     "README.md",
-    "CS61B/lec17  BST, B-Tree 二叉搜索树，平衡树.md",
     "未命名.base",
     "未命名 1.base",
     "Useful Tools",
