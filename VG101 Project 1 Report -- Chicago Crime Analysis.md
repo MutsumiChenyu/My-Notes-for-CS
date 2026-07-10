@@ -29,9 +29,13 @@ This bar chart shows the annual number of reported crimes in Chicago from 2014 t
 
 This line plot shows the average accumulated number of crimes by month from 2014 to 2025. The curve increases almost steadily from January to December, meaning reported crimes accumulate at a fairly regular monthly pace. The final average yearly total is about 255,000 cases.
 
-  
+## Figure 3. Predicted and Actual Accumulated Crimes in 2025
 
-## Figure 3. Primary Crime Type Distribution
+![[Pasted image 20260711005702.png]]
+
+The predicted accumulated crime count remains consistently higher than the actual count after April. By December, the model overestimates the annual total by approximately 14,000 cases. Therefore, the monthly growth pattern of 2024 captures the general increasing trend but does not accurately predict the lower crime level in 2025.
+
+## Figure 4. Primary Crime Type Distribution
 
   
 
@@ -43,7 +47,7 @@ This pie chart compares the most frequent primary crime types from 2014 to 2025.
 
   
 
-## Figure 4. Crime Description Word Cloud
+## Figure 5. Crime Description Word Cloud
 
   
 
@@ -55,7 +59,7 @@ This word cloud presents frequent secondary crime descriptions in 2025. Large ph
 
   
 
-## Figure 5. Crime Distribution by Police District
+## Figure 6. Crime Distribution by Police District
 
   
 
@@ -65,9 +69,11 @@ This word cloud presents frequent secondary crime descriptions in 2025. Large ph
 
 This geobubble map shows 2025 crime counts by police district. Larger bubbles represent districts with more reported crimes. The map reveals that crime reports are spatially uneven, with some districts having around fifteen thousand cases while others have far fewer.
 
+District  had the highest number of reported crimes, with  cases; while District YY had the lowest, with  cases.
+
   
 
-## Figure 6. Crime Location Density with Community Area Boundaries
+## Figure 7. Crime Location Density with Community Area Boundaries
 
   
 ![[7902feadabef0603aaa5e3ecb4a1e2f0.png]]
@@ -79,7 +85,7 @@ This map combines crime density in 2025 with Chicago community area boundaries. 
 
   
 
-## Figure 7. (Self-selected) Crime Time Pattern in 2025
+## Figure 8. (Self-selected) Crime Time Pattern in 2025
 
 ![[a27c36faaeae27b372b9b7e83e6e7bd9.png]]
   
