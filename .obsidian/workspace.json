@@ -11,12 +11,14 @@
             "id": "afec5627cf68b4f8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "CS231n/L1L2.png"
+                "file": "CS231n/Numpy.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "L1L2"
+              "icon": "lucide-file",
+              "title": "Numpy"
             }
           }
         ]
@@ -212,8 +214,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa47a50974195502",
+  "active": "afec5627cf68b4f8",
   "lastOpenFiles": [
+    "CS231n/L1L2.png",
     "CS231n/距离计算.png",
     "README.md",
     "Pasted image 20260711005702.png",
@@ -229,7 +232,6 @@
     "ff7ce0a27e50ce8cabc1fef7004eb1df.png",
     "MATLAB.md",
     "Markdown Practice.md",
-    "Matlab-先Col后Row.png",
     "CS231n/lec2 Linear Classifier.md",
     "CS231n/lec1 Image Classification.md",
     "CS231n/Numpy.md",
