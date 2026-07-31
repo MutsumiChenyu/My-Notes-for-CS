@@ -11,10 +11,12 @@
             "id": "afec5627cf68b4f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "image",
+              "state": {
+                "file": "CS231n/L1L2.png"
+              },
+              "icon": "lucide-image",
+              "title": "L1L2"
             }
           }
         ]
@@ -188,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,8 +212,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afec5627cf68b4f8",
+  "active": "aa47a50974195502",
   "lastOpenFiles": [
+    "CS231n/距离计算.png",
+    "README.md",
     "Pasted image 20260711005702.png",
     "a27c36faaeae27b372b9b7e83e6e7bd9.png",
     "7902feadabef0603aaa5e3ecb4a1e2f0.png",
@@ -228,32 +231,30 @@
     "Markdown Practice.md",
     "Matlab-先Col后Row.png",
     "CS231n/lec2 Linear Classifier.md",
-    "CS231n/Pasted image 20260604144458.png",
     "CS231n/lec1 Image Classification.md",
     "CS231n/Numpy.md",
     "CS50x Finished/Lecture 4 Memory.md",
     "LeetCode/5. 最长回文字符串.md",
     "CS50x Finished/Lecture 5 Data Structure.md",
-    "CS61B/lec23 Graph Traversals and Implementations.md",
+    "CS61B Finished/lec23 Graph Traversals and Implementations.md",
     "CS61A Finished/Lecture 21 字符串表示， 通信接口.md",
     "CS61A Finished/Lecture 10 Tree Recursion 树递归.md",
     "LeetCode/98. 验证二叉搜索树.md",
     "CS61A Finished/Lecture 3 Control.md",
     "CS61A Finished/Lecture 17 Generator生成器.md",
-    "CS61B/lec18 Red-Black Trees 红黑树.md",
+    "CS61B Finished/lec18 Red-Black Trees 红黑树.md",
     "Useful Tools/About Git.md",
     "CS61A Finished/Lecture 13/Lecture 13 Data Abstraction.md",
     "CS61A Finished/Lecture 14 Tree/Lecture 14 Tree 多叉树模型.md",
-    "CS61B/lec19, 20 Hashing.md",
-    "CS61B/lec24 Shortest Path Find 最短路径.md",
-    "CS61B/lec21 Heap, Priority Queue.md",
+    "CS61B Finished/lec19, 20 Hashing.md",
+    "CS61B Finished/lec24 Shortest Path Find 最短路径.md",
+    "CS61B Finished/lec21 Heap, Priority Queue.md",
     "CS231n",
-    "CS61B/lec22 Graphs and Traversals 图论.md",
-    "CS61B/lec1 Java.md",
+    "CS61B Finished/lec22 Graphs and Traversals 图论.md",
     "未命名.base",
     "未命名 1.base",
     "Useful Tools",
-    "CS61B",
+    "CS61B Finished",
     "CS61A Finished/Lecture 22 Compromise",
     "CS61A Finished/Lecture 15 Mutability",
     "CS61A Finished/Lecture 14 Tree",
