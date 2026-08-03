@@ -11,14 +11,12 @@
             "id": "afec5627cf68b4f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CS231n/Numpy.md",
-                "mode": "source",
-                "source": false
+                "file": "CS231n/Pasted image 20260604144458.png"
               },
-              "icon": "lucide-file",
-              "title": "Numpy"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260604144458"
             }
           }
         ]
@@ -216,6 +214,7 @@
   },
   "active": "afec5627cf68b4f8",
   "lastOpenFiles": [
+    "CS231n/Numpy.md",
     "CS231n/L1L2.png",
     "CS231n/距离计算.png",
     "README.md",
@@ -229,12 +228,10 @@
     "e5d9524e91dc32d434c829a629cc62f2.png",
     "VG101 Project 1 Figure Report.md",
     "VG101 Project 1 Report -- Chicago Crime Analysis.md",
-    "ff7ce0a27e50ce8cabc1fef7004eb1df.png",
     "MATLAB.md",
     "Markdown Practice.md",
     "CS231n/lec2 Linear Classifier.md",
     "CS231n/lec1 Image Classification.md",
-    "CS231n/Numpy.md",
     "CS50x Finished/Lecture 4 Memory.md",
     "LeetCode/5. 最长回文字符串.md",
     "CS50x Finished/Lecture 5 Data Structure.md",
