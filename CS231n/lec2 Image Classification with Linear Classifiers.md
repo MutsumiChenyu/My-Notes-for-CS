@@ -56,11 +56,21 @@ Image --> matrix: x --> f(x, W) --> numbers with class scores
 e.g. x: 3072 \* 1(flattened original data) W: 3072 \* 10
 f = Wx = 10 3072 \* 3072 1 = 10 \* 1 -- Each block is each score of the matched class
 
-Possibility function:
+##### Possibility Function (Normalizing)
 
-P(Y = k | X = xi) = 
+**SoftMAX**
+P(Y = k | X = xi) = \[e^(resK)] / \[sum(e^(resJ))]
 
-W -- Formed by optimizing learning 
+	e.g. 
+	Y = 1, 2, 3; f = Wx + b --> res: A, B, C
+	total = e^A + e^B + e^C 
+	P(Y = 1) = e^A / total
+
+##### Loss Function
+for the result of SoftMAX, we check the correct label and calculate the softmax result
+
+##### W
+Formed by optimizing learning 
 ![[Linear Classifiers.png|200]]
 Each Turn:
 1. Use W to calculate result
