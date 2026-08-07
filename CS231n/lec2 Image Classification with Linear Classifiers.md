@@ -39,7 +39,24 @@ distances = np.sum(np.abs(self.Xtr - X[i, :]), axis = 1)
 Image --  3 Channels
 Row resolution \* Col resolution \* 3(R-G-B)
 
-L2:
+##### Hypermeter Choices:
+value of k ?
+L1 or L2 0r Ln ?
+
+##### Cross-Validation
+Training - Fold 1, 2, 3, 4, 5
+Each fold plays as validation set in each turn of training
+
+---
+
+#### Linear Classifiers
+
+Image --> matrix: x --> f(x, W) --> numbers with class scores
+
+e.g. x: 3072 \* 1(flattened original data) W: 3072 \* 10
+f = Wx = 10 3072 \* 3072 1 = 10 \* 1 -- Each block is each score of the matched class
+
+
 
 
 
