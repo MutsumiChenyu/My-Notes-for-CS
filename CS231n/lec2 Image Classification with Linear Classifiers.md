@@ -87,12 +87,7 @@ Due to the correct possibility is labeled by One-Hot(Only 1 and 0) Code, so
 In One-Hot code, KL-div == Cross Entropy
 
 Normally,
-	`H(P, Q) = H(P) + Dkl(`
-
-
-
-
-
+	`H(P, Q) = H(P) + Dkl(P||Q)`
 ##### W
 Formed by optimizing learning 
 ![[Linear Classifiers.png|200]]
