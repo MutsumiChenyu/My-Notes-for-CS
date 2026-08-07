@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS231n/lec2 Linear Classifier.md",
+                "file": "CS231n/lec2 Image Classification with Linear Classifiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lec2 Linear Classifier"
+              "title": "lec2 Image Classification with Linear Classifiers"
             }
           }
         ]
@@ -216,8 +216,9 @@
   },
   "active": "afec5627cf68b4f8",
   "lastOpenFiles": [
+    "CS231n/Composition of traindata.png",
+    "CS231n/lec2 Image Classification with Linear Classifiers.md",
     "CS231n/Numpy.md",
-    "CS231n/lec2 Linear Classifier.md",
     "CS231n/Pasted image 20260604150657.png",
     "CS231n/Pasted image 20260604150128.png",
     "CS231n/Pasted image 20260604145303.png",

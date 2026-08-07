@@ -28,7 +28,7 @@ L2旋转之后距离不变
 2. 选取L1 还是 L2
 这些选择都是超参数设置
 
-![[Pasted image 20260603110216.png]]
+![[Composition of traindata.png]]
 为什么要设置：Validation验证集
 1. 训练集不管设置什么参数都是对的
 2. 测试集来调整参数是作弊
