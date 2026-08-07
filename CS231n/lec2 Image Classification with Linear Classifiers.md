@@ -3,6 +3,7 @@
 Target -> Give the correct labels to the matched picture
 This is Image classification
 
+Challenges: 光源 遮挡 尺寸 环境 "上下文"
 
 
 
