@@ -11,12 +11,14 @@
             "id": "afec5627cf68b4f8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "CS231n/Pasted image 20260604144458.png"
+                "file": "CS231n/lec2 Linear Classifier.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260604144458"
+              "icon": "lucide-file",
+              "title": "lec2 Linear Classifier"
             }
           }
         ]
@@ -215,6 +217,11 @@
   "active": "afec5627cf68b4f8",
   "lastOpenFiles": [
     "CS231n/Numpy.md",
+    "CS231n/lec2 Linear Classifier.md",
+    "CS231n/Pasted image 20260604150657.png",
+    "CS231n/Pasted image 20260604150128.png",
+    "CS231n/Pasted image 20260604145303.png",
+    "CS231n/Pasted image 20260604144458.png",
     "CS231n/L1L2.png",
     "CS231n/距离计算.png",
     "README.md",
@@ -222,15 +229,10 @@
     "a27c36faaeae27b372b9b7e83e6e7bd9.png",
     "7902feadabef0603aaa5e3ecb4a1e2f0.png",
     "9d7b4abf7a15e1f0a7078128c0c6f8dc.png",
-    "2c3bd03186f5ee078791d26939b457d5.png",
-    "60a60d24ee59c7c9f6206eee546fe7f2.png",
-    "94c5cd09f25fc1f6707c43134ef435de.png",
-    "e5d9524e91dc32d434c829a629cc62f2.png",
     "VG101 Project 1 Figure Report.md",
     "VG101 Project 1 Report -- Chicago Crime Analysis.md",
     "MATLAB.md",
     "Markdown Practice.md",
-    "CS231n/lec2 Linear Classifier.md",
     "CS231n/lec1 Image Classification.md",
     "CS50x Finished/Lecture 4 Memory.md",
     "LeetCode/5. 最长回文字符串.md",
