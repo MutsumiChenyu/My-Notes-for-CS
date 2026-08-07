@@ -16,9 +16,16 @@ Image --> Matrix --> Calculate the distance between two images
 
 ##### Distance calculate
 
-L1: Calculate the sum of the substraction of two elements in the same position
+L1: sum(P(i, j) - Q(i, j))
+L2: sqrt(sum(P(i, j)\*\*2 - Q(i, j)\*\*2))
 
 1 3 5 || 2 4 6 --> Sum = (2-1)+(4-3)+(6-5)
+
+Calculate Procedure：
+1. Flatten the image -- Calculation is conducted element by element -- Shape does not change the result
+2. Memorize the whole train data
+3. Compare each testing data with the whole training data (L1, L2)
+4. Store the nearest one in the result matrix -- size(numTraining, 1) -- store the **label(value)** of the nearest matched one in the training data
 
 ```python
 distances = np.sum(np.abs(self.Xtr - X[i, :]), axis = 1)
