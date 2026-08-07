@@ -69,6 +69,28 @@ P(Y = k | X = xi) = \[e^(resK)] / \[sum(e^(resJ))]
 ##### Loss Function
 for the result of SoftMAX, we check the correct label and calculate the softmax result
 
+	e.g. Loss = -log(P(Y = k))
+
+**Cross-Entropy Loss**
+Two possibility - P, Q with same size N
+
+	H(P, Q) = -sumN(Pi * log(Qi))
+
+Due to the correct possibility is labeled by One-Hot(Only 1 and 0) Code, so 
+`Loss = -log(P-correct)`
+
+**KL Divergence**
+
+`Div(KL) = sumN[Pi * log(Pi / Qi)]`
+
+**Connection**
+In One-Hot code, KL-div == Cross Entropy
+
+Normally,
+	`H(P, Q) = H(P) + Dkl(`
+
+
+
 
 
 ##### W
