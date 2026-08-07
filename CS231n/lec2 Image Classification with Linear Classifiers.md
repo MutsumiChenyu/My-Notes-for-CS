@@ -41,7 +41,7 @@ Row resolution \* Col resolution \* 3(R-G-B)
 
 ##### Hypermeter Choices:
 value of k ?
-L1 or L2 0r Ln ?
+L1 or L2 or Ln ?
 
 ##### Cross-Validation
 Training - Fold 1, 2, 3, 4, 5
@@ -55,6 +55,18 @@ Image --> matrix: x --> f(x, W) --> numbers with class scores
 
 e.g. x: 3072 \* 1(flattened original data) W: 3072 \* 10
 f = Wx = 10 3072 \* 3072 1 = 10 \* 1 -- Each block is each score of the matched class
+
+Possibility function:
+
+P(Y = k | X = xi) = 
+
+W -- Formed by optimizing learning 
+![[Linear Classifiers.png|200]]
+Each Turn:
+1. Use W to calculate result
+2. Use Possibility Function to Normalize the result
+3. Use result and Loss Function to calculate the loss of this turn
+4. According to **Learning Rate**, **Loss Result**, **Gradient Descent** to calculate the new W, which will make the Loss smaller
 
 
 
