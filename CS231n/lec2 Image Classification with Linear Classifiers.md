@@ -5,6 +5,29 @@ This is Image classification
 
 Challenges: 光源 遮挡 尺寸 环境 "上下文"
 
+#### Data-Driven Approach
+
+Machine Learning on datasets
+
+---
+
+#### First Classifier -- Nearest Neighbor
+Image --> Matrix --> Calculate the distance between two images
+
+##### Distance calculate
+
+L1: Calculate the sum of the substraction of two elements in the same position
+
+1 3 5 || 2 4 6 --> Sum = (2-1)+(4-3)+(6-5)
+
+```python
+distances = np.sum(np.abs(self.Xtr - X[i, :]), axis = 1)
+```
+
+
+L2:
+
+
 
 
 
