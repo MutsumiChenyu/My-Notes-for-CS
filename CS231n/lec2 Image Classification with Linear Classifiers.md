@@ -22,10 +22,19 @@ L1: Calculate the sum of the substraction of two elements in the same position
 
 ```python
 distances = np.sum(np.abs(self.Xtr - X[i, :]), axis = 1)
+
+# axis = 1 --> Calculate the sum in the row
+# self.Xtr --> training data (it is a matrix)
+# X --> it is the sum of testing data(multiple matrices)
+# X[i, :] --> i-th testing sample
 ```
 
+Image --  3 Channels
+Row resolution \* Col resolution \* 3(R-G-B)
 
 L2:
+
+
 
 
 
