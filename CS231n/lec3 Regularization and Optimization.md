@@ -39,6 +39,12 @@ Grad_Weight = Evaluate(Loss_Function, Data, Weight)
 Weight -= stepSize \* Grad_Weight
 
 ##### SGD Stochastic
+Use **miniBatch**
+Batch ---> MiniBatch(32/64/128) ---> Use MiniBatch to handle the GD procedure
+
+Random batch --> Cover all the data --> Call the procedure "An Epoch"
+
+Hyperparameter: Epoch / Batch_size
 
 
 
