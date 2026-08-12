@@ -48,6 +48,14 @@ Hyperparameter: Epoch / Batch_size
 
 Problem: Grad = 0, e.g. local minima or saddle
 
+##### SGD + Momentum
+Status updating will refer to the previous condition.
+In order to avoid the Poor conditioning and grad == 0
+
+	v(t + 1) = Rho * v(t) + grad(f)
+	x(t + 1) = x(t) - learning_rate * v(t + 1)
+
+
 
 
 
