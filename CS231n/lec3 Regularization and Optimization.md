@@ -29,5 +29,10 @@ We know:
 	res = SoftMax(Wx + b)
 
 1. current W | W + h | gradient dW
-2. 
+2. **gradW(Loss)**
+Grad Check -- limit h check method
+
+#### Gradient Descent
+
+
 
