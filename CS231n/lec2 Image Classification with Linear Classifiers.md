@@ -56,6 +56,9 @@ Image --> matrix: x --> f(x, W) --> numbers with class scores
 e.g. x: 3072 \* 1(flattened original data) W: 3072 \* 10
 f = Wx = 10 3072 \* 3072 1 = 10 \* 1 -- Each block is each score of the matched class
 
+Each row of W --> A corresponding set of arguments of one specific category
+Multiplied by the image vector to get the result corresponding to the  specific category
+
 ##### Possibility Function (Normalizing)
 
 **SoftMAX**
