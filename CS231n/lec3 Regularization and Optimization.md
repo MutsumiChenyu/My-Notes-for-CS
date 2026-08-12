@@ -25,7 +25,8 @@ Find the smallest **Loss**
 ---> Gradient
 We know:
 	Loss = sum(Lossi) + Regularization
-	
+	Lossi = lossFunction(res)
+	res = SoftMax(Wx + b)
 
 1. current W | W + h | gradient dW
 2. 
