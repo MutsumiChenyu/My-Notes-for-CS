@@ -46,6 +46,8 @@ Random batch --> Cover all the data --> Call the procedure "An Epoch"
 
 Hyperparameter: Epoch / Batch_size
 
+Problem: Grad = 0, e.g. local minima or saddle
+
 
 
 
