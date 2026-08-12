@@ -14,3 +14,19 @@ Simple sample:
 	
 Why regularization?
 ---> Since bigger W means bigger arguments, so a slight change in original data will impact the result hugely. Use regularization to confirm the W is a set of small arguments.
+
+Features：
+L2: Tend to spread out the weights arguments
+
+#### Optimization
+Find the smallest **Loss**
+
+#### Follow the slope
+---> Gradient
+We know:
+	Loss = sum(Lossi) + Regularization
+	
+
+1. current W | W + h | gradient dW
+2. 
+
