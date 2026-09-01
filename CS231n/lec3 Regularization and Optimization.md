@@ -35,9 +35,9 @@ Grad Check -- limit h check method
 #### Gradient Descent
 Stop based on 1. Loop counts, 2. Enough small loss_value
 Basically:
-Grad_Weight = Evaluate(Loss_Function, Data, Weight)
-Weight -= stepSize \* Grad_Weight
-
+**Grad_Weight = Evaluate(Loss_Function, Data, Weight)
+Weight -= stepSize \* Grad_Weight**
+ 
 ##### SGD Stochastic
 Use **miniBatch**
 Batch ---> MiniBatch(32/64/128) ---> Use MiniBatch to handle the GD procedure
