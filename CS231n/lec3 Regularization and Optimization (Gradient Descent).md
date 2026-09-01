@@ -33,12 +33,17 @@ We know:
 Grad Check -- limit h check method
 
 #### Gradient Descent
+
 Stop based on 1. Loop counts, 2. Enough small loss_value
 Basically:
-**Grad_Weight = Evaluate(Loss_Function, Data, Weight)
-Weight -= stepSize \* Grad_Weight**
+**Grad_Weight = Evaluate(Loss_Function, Data, Weight)**
+	Calculate the gradient on the loss function
+**Weight -= stepSize \* Grad_Weight**
+
+Step Size == Learning Rate
+Reduce the learning rate after a few fixed steps
  
-##### SGD Stochastic
+##### SGD Stochastic(随机)
 Use **miniBatch**
 Batch ---> MiniBatch(32/64/128) ---> Use MiniBatch to handle the GD procedure
 
@@ -54,6 +59,10 @@ In order to avoid the Poor conditioning and grad == 0
 
 	v(t + 1) = Rho * v(t) + grad(f)
 	x(t + 1) = x(t) - learning_rate * v(t + 1)
+
+##### Adam
+
+
 
 
 
