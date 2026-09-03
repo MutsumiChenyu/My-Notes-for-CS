@@ -7,4 +7,9 @@ RNN用于理解语言（有前后文关系，有逻辑联系）
 ht是对前t个内容的“记忆”，被传入t+1个内容的元素处理里面
 
 ##### Encoder
-普通RNN -- 只保留最后一次的数据 比如 A B C只保留zui ho
+普通RNN -- 只保留最后一次的数据 比如 A B C只保留最后一次的处理数据 -- 这个就称为Encoder
+
+最后一次的保留数据：Context Vector/ Encoder Representation
+
+##### Decoder
+
